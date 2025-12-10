@@ -1,0 +1,46 @@
+{
+  "website": "https://www.mdr.de/nachrichten-leicht/leichte-sprache-sachsen-bad-schandau-vermessung-behelfsbruecke-100.html",
+  "model": "gpt-4o",
+  "translations": {
+    "Wenn die Elb-Brücke fertig repariert ist,\ndann wird die Behelfs-Brücke wieder ab-gebaut.\nUnd die Menschen können wieder\ndie Elb-Brücke benutzen.": "<strong>Die Reparatur von der Elb·brücke ist bald fertig.</strong><br>Das bedeutet:<br>Die Behelfs·brücke wird ab·gebaut.<br>Dann können die Menschen wieder<br>die Elb·brücke benutzen.<br>",
+    "Regina Kraushaar hat auch gesagt:\nDie Menschen in Bad Schandau brauchen die Behelfs-Brücke.\nDenn es gibt viele Verkehrs-Probleme,\nweil die alte Elb-Brücke nicht mehr benutzt werden kann.": "Regina Kraushaar hat auch gesagt:<br>\nDie Menschen in Bad Schandau brauchen die Behelfs·brücke.<br>\nEs gibt nämlich viele Verkehrs·probleme.<br>\n<strong>Der Grund:</strong><br>\nDie alte Elb·brücke kann nicht mehr benutzt werden.<br>",
+    "Die Elb-Brücke muss repariert werden.\nDas dauert aber vielleicht eine lange Zeit.\nDeshalb soll eine Behelfs-Brücke gebaut werden.\nDas ist eine Brücke,\ndie schnell auf-gebaut werden kann.\nSie kann aber nicht so lange benutzt werden.": "Die Elb·brücke muss <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-repariert-100.html\">repariert</a> werden.<br>\nDie Reparatur kann lange dauern.<br>\n<strong>Deshalb</strong> wird eine Behelfs·brücke gebaut.<br>\nEine Behelfs·brücke ist eine Brücke:<br>\nDie Brücke kann schnell auf·gebaut werden.<br>\n<strong>Aber</strong> die Brücke kann nicht lange benutzt werden.<br>",
+    "Bad Schandau ist eine Stadt im Bundes-Land Sachsen.\nDort gibt es eine Brücke.\nSie heißt: Elb-Brücke.\nVor 2 Monaten wurde die Elb-Brücke gesperrt,\nweil sie vielleicht einsturz-gefährdet ist.\nDas bedeutet:\nDie Elb-Brücke kann vielleicht kaputt-gehen.\nDeshalb darf kein Mensch mehr die Elb-Brücke benutzen.": "Bad Schandau ist eine Stadt im Bundes·land Sachsen.<br>  \nEs gibt in Bad Schandau eine Brücke.<br>  \nDie Brücke heißt: Elb·brücke.<br>  \nVor 2 Monaten wurde die Elb·brücke <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-sperrung-100.html\">gesperrt</a>.<br>  \n<strong>Deshalb</strong>: Es darf kein Mensch mehr die Elb·brücke benutzen.<br>  \n<strong>Warum?</strong> Die Elb·brücke kann vielleicht kaputt·gehen.<br>",
+    "Regina Kraushaar ist die Verkehrs-Ministerin von Sachsen.\nSie hat gesagt:\nFach-Leute machen jetzt Vermessungs-Arbeiten in Bad Schandau.\nDas bedeutet:\nSie messen mit besonderen Geräten genau,\nwie das Gelände am Fluss Elbe aussieht.\nSo finden sie heraus,\nwo die Behelfs-Brücke am besten auf-gebaut werden kann.\nDie Mess-Ergebnisse sollen in der Mitte vom Monat Januar fertig sein.": "Regina Kraushaar ist die Verkehrs·ministerin von Sachsen.<br>  \nRegina Kraushaar hat gesagt:<br>  \nFach·leute machen jetzt Vermessungs·arbeiten in Bad Schandau.<br>  \nDas bedeutet:<br>  \nDie Fach·leute messen mit besonderen <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-technisches-geraet-100.html\">Geräten</a>.<br>  \nDie Fach·leute schauen genau:<br>  \n<strong>Wie sieht das <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-gelaende-100.html\">Gelände</a> am Fluss Elbe aus?</strong><br>  \nSo finden die Fach·leute heraus:<br>  \n<strong>Wo kann die Behelfs·brücke am besten gebaut werden?</strong><br>  \nDie Mess·ergebnisse sollen in der Mitte vom Monat Januar fertig sein.<br>  ",
+    "Über dieses Thema berichtet der MDR auch in schwerer Sprache:\nMDR SACHSEN - Das Sachsenradio | Regionalnachrichten aus dem Studio Dresden | 06. Januar 2025 | 10:30 Uhr": "<strong>Darüber</strong> <br> <strong>berichtet</strong> <br> <strong>auch der MDR.</strong> <br> <strong>Der MDR</strong> <br> <strong>macht</strong> <br> <strong>schwere</strong> <br> <strong>Sprache.</strong> <br> <strong>MDR SACHSEN:</strong> <br> <strong>Das Sachsen·radio</strong> <br> <strong>Regional·nachrichten</strong> <br> <strong>aus dem Studio Dresden:</strong> <br> <strong>6. Januar 2025</strong> <br> <strong>10:30 Uhr.</strong> <br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 83.94261113336005,
+    "1. Wiener Sachtextformel": 2.4142528634361233,
+    "G-SMOG Index": 1.5032452487268535,
+    "LIX": 32.34461353624349,
+    "Sentence Count": 22,
+    "Word Count": 227,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 3,
+      "sentence_count": 22
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 79.54222222222224,
+    "1. Wiener Sachtextformel": 3.383301587301588,
+    "G-SMOG Index": 1.3333333333333335,
+    "LIX": 39.2063492063492,
+    "Sentence Count": 27,
+    "Word Count": 210,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 7,
+      "sentence_count": 27
+    }
+  }
+}

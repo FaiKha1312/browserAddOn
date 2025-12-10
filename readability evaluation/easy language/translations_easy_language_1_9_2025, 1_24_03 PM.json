@@ -1,0 +1,48 @@
+{
+  "website": "https://www.mdr.de/nachrichten-leicht/leichte-sprache-thueringen-sternsinger-weniger-kinder-100.html",
+  "model": "easy_language",
+  "translations": {
+    "Heute ist der Heilige 3 Königstag.\nDas ist ein besonderer Tag von der Katholischen Kirche.\nIn einigen Bundes-Ländern ist der Tag ein Feiertag.\nZum Beispiel:\n    • In Baden-Württemberg,\n    • Bayern\n    • und Sachsen-Anhalt.": "\nHeute ist der Heilige 3 Königstag. <br>Das ist ein besonderer Tag von der <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-katholische-kirche-100.html\" title=\"Katholische Kirche\" data-ctrl-link=\"{'id': '0bae3342-9a04-4bb3-aa93-d0b593e57557','type':'tooltip','window':{'type':'empty','config':{'title':'Katholische Kirche','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Katholischen Kirche</strong></a>. <br>In einigen <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-bundesland-100.html\" title=\"Bundes-Land\" data-ctrl-link=\"{'id': '3e9a8b37-c25c-450d-8dd3-3976344b1bce','type':'tooltip','window':{'type':'empty','config':{'title':'Bundes-Land','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Bundes-Ländern</strong></a> ist der Tag ein <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-feiertage-100.html\" title=\"Feiertag\" data-ctrl-link=\"{'id': '614dfb3a-101b-436a-ad54-a58fd7227f29','type':'tooltip','window':{'type':'empty','config':{'title':'Feiertag','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Feiertag</strong></a>. <br>Zum Beispiel:<br>&nbsp;&nbsp;&nbsp; • In Baden-Württemberg, <br>&nbsp;&nbsp;&nbsp; • Bayern <br>&nbsp;&nbsp;&nbsp; • und Sachsen-Anhalt.\n",
+    "Der Heilige 3 Königstag\nerinnert an die Geschichte von den 3 Heiligen Königen.\nDiese Könige sind aus dem Morgenland gekommen.\nUnd sie sind einem Stern gefolgt.\nDer Stern hat die Heiligen 3 Könige nach Betlehem gebracht.": "\nDer Heilige 3 Königstag <br>erinnert an die Geschichte von den 3 Heiligen Königen.<br>Diese Könige sind aus dem <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-morgenland-100.html\" title=\"Morgenland\" data-ctrl-link=\"{'id': '5540d6c5-2163-4412-9179-0d4763041fbc','type':'tooltip','window':{'type':'empty','config':{'title':'Morgenland','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Morgenland</strong></a> gekommen. <br>Und sie sind einem Stern gefolgt. <br>Der Stern hat die Heiligen 3 Könige nach Betlehem gebracht.\n",
+    "Das ist eine Stadt im Westjordan-Land.\nIn Bethlehem haben die Heiligen 3 Könige das Jesus-Kind gefunden.\nEs lag in einem Stall.\nSie haben das Jesus-Kind geehrt.": "\nDas ist eine Stadt im Westjordan-Land.<br>In Bethlehem haben die Heiligen 3 Könige das Jesus-Kind gefunden. <br>Es lag in einem Stall. <br>Sie haben das Jesus-Kind <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-geehrt-oder-ehren-100.html\" title=\"geehrt oder ehren\" data-ctrl-link=\"{'id': '0ff1d2f4-be0b-418b-9ac2-42eca8522fad','type':'tooltip','window':{'type':'empty','config':{'title':'geehrt oder ehren','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>geehrt</strong></a>.\n",
+    "Heute ist es bei uns so:\nDass der Heilige 3 Königs-Tag die Weihnachts-Zeit beendet.\nDas bedeutet:\nViele Menschen schmücken ihren Weihnachts-Baum ab.\nSie räumen ihren Weihnachts-Schmuck weg.\nUnd die Stern-Singer gehen von Haus zu Haus.": "\nHeute ist es bei uns so:<br>Dass der Heilige 3 Königs-Tag die Weihnachts-Zeit beendet. <br>Das bedeutet: <br>Viele Menschen schmücken ihren Weihnachts-Baum ab.<br>Sie räumen ihren Weihnachts-Schmuck weg.<br>Und die <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-stern-singer-100.html\" title=\"Stern-Singer\" data-ctrl-link=\"{'id': 'cbdfd9a7-bc09-4588-96b3-e27805a63511','type':'tooltip','window':{'type':'empty','config':{'title':'Stern-Singer','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Stern-Singer</strong></a> gehen von Haus zu Haus.\n",
+    "Die Stern-Singer sind Kinder und Jugendliche.\nSie singen Kirchen-Lieder.\nUnd sie sammeln Geld für arme Menschen.\nAußerdem segnen sie das Haus und die Menschen für das neue Jahr.\nDas bedeutet:\nSie wünschen dem Haus und den Menschen\nviele gute Dinge für das neue Jahr.": "\nDie Stern-Singer sind Kinder und <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-jugendliche-100.html\" title=\"Jugendlicher oder Jugendliche\" data-ctrl-link=\"{'id': 'b8e2d073-e4cc-4c63-ac1d-91ed830926ed','type':'tooltip','window':{'type':'empty','config':{'title':'Jugendlicher oder Jugendliche','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Jugendliche</strong></a>. <br>Sie singen Kirchen-Lieder. <br>Und sie sammeln Geld für arme Menschen.<br>Außerdem <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-segnen-gesegnet-100.html\" title=\"segnen oder gesegnet\" data-ctrl-link=\"{'id': '80396f41-1341-445b-b4bd-e515e9b0ded8','type':'tooltip','window':{'type':'empty','config':{'title':'segnen oder gesegnet','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>segnen</strong></a><strong> </strong>sie<strong> </strong>das Haus und die Menschen für das neue Jahr. <br>Das bedeutet: <br>Sie wünschen dem Haus und den Menschen <br>viele gute Dinge für das neue Jahr.\n",
+    "In diesem Jahr sind im Bundes-Land Thüringen\nweniger Stern-Singer unterwegs": "\n<strong>In diesem Jahr sind im Bundes-Land Thüringen <br>weniger Stern-Singer unterwegs</strong>\n",
+    "Das haben einige Mitarbeiter von der Katholische Kirche in Erfurt gesagt.\nDenn es sind noch Schulferien in Thüringen.\nDeshalb sind vielleicht noch viele Familien im Urlaub.\nUnd viele Kinder und Jugendliche können nicht dabei sein.\nEinige Kirchen-Gemeinden machen das Stern-Singen\ndeshalb 1 Woche später.\nDann sind die Ferien vorbei.": "\nDas haben einige Mitarbeiter von der Katholische Kirche in Erfurt gesagt. <br>Denn es sind noch Schulferien in Thüringen. <br>Deshalb sind vielleicht noch viele Familien im Urlaub. <br>Und viele Kinder und Jugendliche können nicht dabei sein.<br>Einige <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-Kirchen-Gemeinden100.html\" title=\"Kirchen-Gemeinde oder Kirchen-Gemeinden\" data-ctrl-link=\"{'id': '6e062c00-08e6-48c6-a064-b74faa00612b','type':'tooltip','window':{'type':'empty','config':{'title':'Kirchen-Gemeinde oder Kirchen-Gemeinden','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Kirchen-Gemeinden</strong></a> machen das Stern-Singen <br>deshalb 1 Woche später.<br>Dann sind die Ferien vorbei.\n",
+    "Über dieses Thema berichtet der MDR auch in schwerer Sprache:\nMDR THÜRINGEN | MDR THÜRINGEN JOURNAL | 05. Januar 2025 | 19:00 Uhr": "\n<dfn id=\"def-1032570647563443352\">Über dieses Thema berichtet der MDR auch in schwerer Sprache:<br>MDR THÜRINGEN | MDR THÜRINGEN JOURNAL | 05. Januar 2025 | 19:00 Uhr</dfn>\n"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 82.80000000000001,
+    "1. Wiener Sachtextformel": 2.4215037037037046,
+    "G-SMOG Index": 1.3166247903553998,
+    "LIX": 32.7037037037037,
+    "Sentence Count": 30,
+    "Word Count": 270,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 5,
+      "sentence_count": 30
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 82.80000000000001,
+    "1. Wiener Sachtextformel": 2.4215037037037046,
+    "G-SMOG Index": 1.3166247903553998,
+    "LIX": 32.7037037037037,
+    "Sentence Count": 30,
+    "Word Count": 270,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 5,
+      "sentence_count": 30
+    }
+  }
+}

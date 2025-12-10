@@ -1,0 +1,48 @@
+{
+  "website": "https://www.ndr.de/nachrichten/info/Wetter-im-Norden-Schnee-und-Glaette-koennten-fuer-Probleme-sorgen,wetter9950.html",
+  "model": "gpt-4o",
+  "translations": {
+    "Dieses Element liegt auf Servern von Datawrapper.de. Sie können die Einbettung auf unserer Datenschutzseite deaktivieren.": "<strong>Dieses Element</strong> <br>\nliegt auf Servern von <strong>Datawrapper.de</strong>.<br>\n<strong>Sie</strong> können die Einbettung deaktivieren.<br>\n<strong>Unsere Datenschutz·seite</strong> zeigt Ihnen, wie das geht.<br>",
+    "Sturmbedingt fielen einige Fährverbindungen in Schleswig-Holstein aus. Auf der Föhr-Amrum-Linie der Wyker Dampfschiffs-Reederei wurden mehrere Fahrten abgesagt. Auch die Elbfähre zwischen Glückstadt (Kreis Steinburg) und Wischhafen in Niedersachsen unterbrach wegen Hochwassers für einige Stunden den Betrieb.": "Ein Sturm hat einige Fähren·verbindungen in Schleswig-Holstein gestoppt.<br> Auf der Linie zwischen Föhr und Amrum von der Wyker Dampfschiffs-Reederei wurden mehrere Fahrten abgesagt.<br> Auch die Elbfähre zwischen Glückstadt im Kreis Steinburg und Wischhafen in Niedersachsen musste den Betrieb unterbrechen.<br> Der Grund war Hochwasser.<br> Die Elbfähre konnte deshalb für einige Stunden nicht fahren.<br>",
+    "Da die Temperaturen in der Nacht verbreitet leicht unter den Gefrierpunkt gefallen sind, droht in ganz Norddeutschland Straßenglätte. In den kommenden Tagen erwartet uns dann weiterer Niederschlag - teils als Regen, teils als Schnee.": "<strong>In der Nacht</strong><br> \n<strong>war es sehr kalt</strong><br> \n<strong>Die Temperaturen waren unter null Grad</strong><br> \n<strong>In ganz Norddeutschland könnte es glatt auf den Straßen sein</strong><br>\n<strong>In den nächsten Tagen wird es Niederschlag geben</strong><br>\n<strong>Das ist Regen oder Schnee</strong><br>",
+    "Die Winterdienste haben sich auf Schnee und Eis vorbereitet: In Hannover beispielsweise hat die Stadtreinigung einen Einsatz mit 260 Reinigungskräften geplant, die bei Bedarf in rund 100 Streu- und Räumfahrzeugen unterwegs sein können.": "Die Winter·dienste sind bereit für Schnee und Eis.<br>\nZum Beispiel in Hannover.<br>\nDie Stadt·reinigung hat einen Plan gemacht.<br>\n<strong>260</strong> Reinigungs·kräfte helfen bei Schnee und Eis.<br>\n<strong>100</strong> Streu- und Räum·fahrzeuge stehen bereit.<br>\nWenn Schnee und Eis kommen.<br>\nDann fahren die Reinigungs·kräfte los.<br>",
+    "Ob die Schneefälle in den Höhenlagen ausreichen, damit am kommenden Wochenende im Harz die Skipisten geöffnet werden können, steht noch nicht fest.": "<strong>Es</strong> gibt <strong>noch keine</strong> Entscheidung: <br> <strong>Können</strong> die Ski·pisten <strong>im Harz</strong> öffnen? <br> Es <strong>kommt darauf an</strong>: <br> <strong>Wie viel</strong> Schnee <strong>wird</strong> in den Höhen·lagen <strong>fallen</strong>? <br> Das <strong>wissen wir noch nicht</strong>. <br> <strong>Ab wann</strong>: <br> Am kommenden Wochen·ende. <br>",
+    "Im Landkreis Aurich waren bereits am Mittwochmorgen zwei Schulbusse wegen Straßenglätte verunglückt. In der Gemeinde Hinte rutschte ein Bus in eine Haltestelle, ein dort wartendes Kind wurde durch Glassplitter leicht verletzt. Der andere Unfall ereignete sich in Ihlow. Dort kam ein Bus mit etwa 20 Schulkindern von der Straße ab und kollidierte mit einem Baum - verletzt wurde dabei nach Polizeiangaben niemand.": "Im Landkreis Aurich gab es am Mittwoch·morgen 2 Schulbus·unfälle.<br> In der Gemeinde Hinte rutschte ein Bus in eine Halte·stelle.<br> Ein Kind stand an der Halte·stelle.<br> Das Kind wurde leicht verletzt.<br> Das Kind hat von Glas·splittern Wunden bekommen.<br> Der andere Unfall war in Ihlow.<br> Dort fuhr ein Bus von der Straße.<br> Im Bus saßen etwa 20 Schul·kinder.<br> Der Bus fuhr gegen einen Baum.<br> Niemand wurde verletzt.<br> Das hat die Polizei gesagt.<br>",
+    "Zu Wochenbeginn hatte ein Sturm die Norddeutschen beschäftigt. Nach einer ersten Sturmflut am Dienstag fiel auch das Morgen-Hochwasser am Mittwoch nach Angaben des Bundesamtes für Seeschifffahrt und Hydrographie (BSH) an der ostfriesischen Küste und im Wesergebiet 0,75 bis einen Meter höher aus als das mittlere Hochwasser. An der nordfriesischen Küste wurden Pegelstände von etwa 1,30 Meter über dem mittleren Hochwasser gemessen. Im Hamburger Elbegebiet fiel der Wasserstand rund 1,10 Meter höher als normal aus.": "Zu Wochen·beginn war ein Sturm im Norden von Deutschland.<br>\nDie Menschen im Norden von Deutschland waren beschäftigt.<br>\nDer Sturm hat das gemacht: In der Nacht von Dienstag zu Mittwoch war ein Hoch·wasser.<br>\nDas war an der Küste von Ostfriesland und im Weser·gebiet.<br>\n<strong>Das Bundes·amt für See·schifffahrt und Hydro·graphie</strong> hat gesagt:<br>\n\tDer Wasser·stand war 0,75 bis 1 Meter höher als normal.<br>\n\tAn der Nord·friesischen Küste war das Wasser noch höher.<br>\n\tDer Wasser·stand war dort 1,30 Meter höher als normal.<br>\n\tIm Elbe·gebiet bei Hamburg war das Wasser 1,10 Meter höher als normal.<br>",
+    "Von Südwesten her bewegt sich eine Schneefront auf Norddeutschland zu. Am kräftigsten wird sie das südliche und südöstliche Niedersachsen treffen. Dort erwartet der DWD bis zum Abend mäßigen Schneefall mit 5 bis 10 Zentimetern und in den Staulagen 15 bis 20 Zentimetern Neuschnee. Abseits davon soll es im restlichen Niedersachsen und in Bremen vor allem ab dem Abend Glätte durch Schneeschauer geben. Auch für den Süden Mecklenburg-Vorpommerns ist mit ein paar Zentimetern Schnee zu rechnen.": "Eine Schneefront kommt von Südwesten.<br>\nDie Schneefront kommt nach Nord·deutschland.<br>\nDie Schneefront ist sehr stark im südlichen und süd·östlichen Nieder·sachsen.<br>\nDer DWD sagt: <br>\nDort gibt es bis zum Abend Schnee.<br>\nEs gibt 5 bis 10 Zenit·meter Schnee.<br>\nIn bestimmten Bereichen gibt es 15 bis 20 Zenit·meter neuen Schnee.<br>\nIm restlichen Nieder·sachsen und in Bremen gibt es ab dem Abend Schnee·schauer.<br>\nDeshalb wird es glatt.<br>\nAuch im Süden von Mecklenburg-Vor·pommern gibt es ein paar Zenit·meter Schnee.<br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 61.50194622279132,
+    "1. Wiener Sachtextformel": 5.945084507042253,
+    "G-SMOG Index": 4.50174801670499,
+    "LIX": 49.09411011523687,
+    "Sentence Count": 22,
+    "Word Count": 355,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 6,
+      "sentence_count": 22
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 80.4292591276088,
+    "1. Wiener Sachtextformel": 2.1111072056060536,
+    "G-SMOG Index": 0.8806027738002218,
+    "LIX": 32.30391509673488,
+    "Sentence Count": 47,
+    "Word Count": 419,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 9,
+      "sentence_count": 47
+    }
+  }
+}

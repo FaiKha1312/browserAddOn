@@ -1,0 +1,43 @@
+{
+  "website": "https://www.aschaffenburg.de/Aktuelles/Aktuelle-Meldungen-in-Leichter-Sprache/DE_index_6736_98520.html",
+  "model": "easy_language",
+  "translations": {
+    "Das Jugendkulturzentrum macht eine Hip-Hop-Veranstaltung.\nDas Jugendkulturzentrum nennt man auch JUKUZ.\nDie Veranstaltung heißt: Mic Drop Mayhem.\nDie Veranstaltung ist am Freitag, 13. Dezember.\nDie Adresse ist:\nKirchhofweg 2.": "<span>Das <strong>Ju</strong>gend<strong>ku</strong>ltur<strong>z</strong>entrum macht eine Hip-Hop-Veranstaltung.<br>\nDas <strong>Ju</strong>gend<strong>ku</strong>ltur<strong>z</strong>entrum nennt man auch <strong>JUKUZ</strong>.</span><br>\n<span>Die Veranstaltung heißt: Mic Drop Mayhem.</span><br>\n<span>Die Veranstaltung ist am Freitag, 13. Dezember.</span><br>\n<span>Die Adresse ist:</span><br>\n<span>Kirchhofweg 2.</span>",
+    "Ab 19 Uhr kann man verschiedene Musikerinnen und Musiker hören.\nZum Beispiel:\n- Sir Sonntag mit Cocos\n- Bitumen mit LuSpencer\n- Antinger\nDer Eintritt kostet 3 Euro.": "<br>\n<span>Ab 19 Uhr kann man verschiedene Musikerinnen und Musiker hören.</span><br>\n<span>Zum Beispiel:</span><br>\n<span>- Sir Sonntag mit Cocos</span><br>\n<span>- Bitumen mit LuSpencer</span><br>\n<span>- Antinger</span><br>\n<span>Der Eintritt kostet 3 Euro.</span>",
+    "Ein Computer hat diesen Text in Leichte Sprache übertragen.\nDer Text ist nicht durch Menschen mit Behinderungen geprüft worden.\nSie können hier dazu mehr lesen.": "<span><span>Ein Computer hat diesen Text in Leichte Sprache übertragen.<br>\nDer Text ist <strong>nicht </strong>durch Menschen mit Behinderungen geprüft worden.<br>\n<a href=\"https://www.aschaffenburg.de/disclaimer\">Sie können hier dazu mehr lesen.</a></span></span>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 67.91851851851852,
+    "1. Wiener Sachtextformel": 3.1325160493827164,
+    "G-SMOG Index": 0.5819888974716112,
+    "LIX": 39.864197530864196,
+    "Sentence Count": 9,
+    "Word Count": 81,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 9
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 67.91851851851852,
+    "1. Wiener Sachtextformel": 3.1325160493827164,
+    "G-SMOG Index": 0.5819888974716112,
+    "LIX": 39.864197530864196,
+    "Sentence Count": 9,
+    "Word Count": 81,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 9
+    }
+  }
+}

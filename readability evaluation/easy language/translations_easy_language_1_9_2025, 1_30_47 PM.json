@@ -1,0 +1,45 @@
+{
+  "website": "https://www.aschaffenburg.de/Aktuelles/Aktuelle-Meldungen-in-Leichter-Sprache/DE_index_6736_98134.html",
+  "model": "easy_language",
+  "translations": {
+    "In Aschaffenburg gibt es ein Event.\nDas Event heißt: Stadtradeln.\nDas Event gab es 2024 zum 12. Mal.\nDie Menschen sind dabei Fahrrad gefahren.\nDie Menschen sind mehr Fahrrad gefahren als in den Jahren davor.\n\nDas Event war vom 5. bis 25. Juli.\nDie Menschen sind in der Stadt Aschaffenburg und in den Landkreisen Aschaffenburg und Miltenberg Fahrrad gefahren.\nDas war gut für das Klima.\nUnd das war gut für einen guten Zweck.\n\nDie AVG hat für 100 Kilometer 2 kWh Strom gespendet.\nDie Spende ist für die Mission Zukunft beim Klinikum Aschaffenburg-Alzenau.\nHier ist die Internetseite von der Mission Zukunft: https://mission-zukunft-ab.de/.": "<span>In Aschaffenburg gibt es ein Event.</span><br>\n<span>Das Event heißt: Stadtradeln.</span><br>\n<span>Das Event gab es 2024 zum 12. Mal.</span><br>\n<span>Die Menschen sind dabei Fahrrad gefahren.</span><br>\n<span>Die Menschen sind mehr Fahrrad gefahren als in den Jahren davor.</span><br>\n<br>\n<span>Das Event war vom 5. bis 25. Juli.</span><br>\n<span>Die Menschen sind in der Stadt Aschaffenburg und in den Landkreisen Aschaffenburg und Miltenberg Fahrrad gefahren.</span><br>\n<span>Das war gut für das Klima.</span><br>\n<span>Und das war gut für einen guten Zweck.</span><br>\n<br>\n<span>Die AVG hat für 100 Kilometer 2 kWh Strom gespendet.</span><br>\n<span>Die Spende ist für die Mission Zukunft beim Klinikum Aschaffenburg-Alzenau.</span><br>\n<span>Hier ist die Internetseite von der Mission Zukunft: https://mission-zukunft-ab.de/.</span>",
+    "© Lebenshilfe für Menschen mit geistiger Behinderung Bremen e.V., Illustrator Stefan Albers": "© Lebenshilfe für Menschen mit geistiger Behinderung Bremen e.V., Illustrator Stefan Albers",
+    "Die Siegerehrung der Fahrradfahrer. Foto: Björn Wandres / Stadt Aschaffenburg": "Die Siegerehrung der Fahrradfahrer. Foto: Björn Wandres / Stadt Aschaffenburg",
+    "Noch nie haben so viele Menschen mitgemacht wie dieses Jahr.\nEs haben 1.418 Menschen mitgemacht.\nDie Menschen waren in 66 Teams.\n\nDie Menschen sind in den 3 Wochen sehr viel Fahrrad gefahren.\nAllein die Menschen aus der Stadt Aschaffenburg sind zusammen 285.555 Kilometer gefahren.\n\nViele Schulen haben mitgemacht.\nDas ist besonders gut.\nDenn die Schüler und Schülerinnen fahren vielleicht später auch mehr Fahrrad als Auto.\n\nSeit Jahren gibt es Preise für die Schulen mit den meisten Schülerkilometern.\nSchülerkilometer heißt:\nWie viele Kilometer fahren die Schüler und Schülerinnen von einer Schule zusammen?\nDie Stadt Aschaffenburg und die Raiffeisen-Volksbank Aschaffenburg geben die Preise zusammen.\n\nAm 8. November gab es eine Siegerehrung im Großen Sitzungssaal vom Rathaus in Aschaffenburg.\nBei der Siegerehrung wurden die besten Schulen, Teams, Fahrerinnen und Fahrer geehrt.\n\nDer Radverkehrsbeauftragte Jörn Büttner hat die Ergebnisse gezeigt.\nDer Oberbürgermeister Jürgen Herzing hat die Siegerehrung gemacht.": "<span>Noch </span><strong><strong>nie</strong></strong><span> haben so viele Menschen mitgemacht wie dieses Jahr.</span><br>\n<span>Es haben 1.418 Menschen mitgemacht.</span><br>\n<span>Die Menschen waren in 66 Teams.</span><br>\n<br>\n<span>Die Menschen sind in den 3 Wochen sehr viel Fahrrad gefahren.</span><br>\n<span>Allein die Menschen aus der Stadt Aschaffenburg sind zusammen 285.555 Kilometer gefahren.</span><br>\n<br>\n<span>Viele Schulen haben mitgemacht.</span><br>\n<span>Das ist besonders gut.</span><br>\n<span>Denn die Schüler und Schülerinnen fahren vielleicht später auch mehr Fahrrad als Auto.</span><br>\n<br>\n<span>Seit Jahren gibt es Preise für die Schulen mit den meisten Schülerkilometern.</span><br>\n<span>Schülerkilometer heißt:</span><br>\n<span>Wie viele Kilometer fahren die Schüler und Schülerinnen von einer Schule zusammen?</span><br>\n<span>Die Stadt Aschaffenburg und die Raiffeisen-Volksbank Aschaffenburg geben die Preise zusammen.</span><br>\n<br>\n<span>Am 8. November gab es eine Siegerehrung im Großen Sitzungssaal vom Rathaus in Aschaffenburg.</span><br>\n<span>Bei der Siegerehrung wurden die besten Schulen, Teams, Fahrerinnen und Fahrer geehrt.</span><br>\n<br>\n<span>Der Radverkehrsbeauftragte Jörn Büttner hat die Ergebnisse gezeigt.</span><br>\n<span>Der Oberbürgermeister Jürgen Herzing hat die Siegerehrung gemacht.</span>",
+    "Ein Computer hat diesen Text in Leichte Sprache übertragen.\nDer Text ist nicht durch Menschen mit Behinderungen geprüft worden.\nSie können hier dazu mehr lesen.": "<span><span><span><span>Ein Computer hat diesen Text in Leichte Sprache übertragen.<br>\nDer Text ist nicht durch Menschen mit Behinderungen geprüft worden.<br>\n<a href=\"https://www.aschaffenburg.de/disclaimer\">Sie können hier dazu mehr lesen.</a></span></span></span></span>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 72.61250000000001,
+    "1. Wiener Sachtextformel": 3.793054761904762,
+    "G-SMOG Index": 1.872983346207417,
+    "LIX": 40.480017006802726,
+    "Sentence Count": 32,
+    "Word Count": 294,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 10,
+      "sentence_count": 32
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 72.31612903225806,
+    "1. Wiener Sachtextformel": 3.8426079877112143,
+    "G-SMOG Index": 1.9349550147037178,
+    "LIX": 40.77638797454466,
+    "Sentence Count": 31,
+    "Word Count": 294,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 10,
+      "sentence_count": 31
+    }
+  }
+}

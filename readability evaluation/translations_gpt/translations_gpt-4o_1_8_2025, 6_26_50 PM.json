@@ -1,0 +1,42 @@
+{
+  "website": "https://www.aschaffenburg.de/Aktuelles/Aktuelle-Meldungen/DE_index_4160_98540.html",
+  "model": "gpt-4o",
+  "translations": {
+    "Die Upcycling-Taschen gibt es an der Theaterkasse. Foto: Mareike Vorbeck, Stadt Aschaffenburg": "Die Upcycling-Taschen gibt es an der Theater·kasse.<br>  \nFoto: Mareike Vorbeck<br>  \nStadt Aschaffenburg<br>",
+    "Jedes Jahr werden zahlreiche Fahnen und Banner zur Bewerbung der Aschaffenburger Kulturtage hergestellt. Die Gestaltung mit entsprechendem Termin und Motto macht eine Wiederverwendung im nächsten Jahr unmöglich, weswegen eine Entsorgung bisher unumgänglich war.\nIm vergangenen Jahr wurde das Material zum ersten Mal zur Nähwerkstatt von GESTA e.V. gebracht, wo in Handarbeit Taschen unterschiedlicher Modelle aus den Werbemitteln hergestellt wurden.  Auch die Banner und Fahnen der 25. Aschaffenburger Kulturtage wurden umgearbeitet und die Unikate sind ab sofort wieder im Stadttheater an der Theaterkasse zum Selbstkostenpreis erhältlich.\nDurch diesen Upcycling-Prozess kann das Kulturamt als Veranstalter der Kulturtage sowohl einen Beitrag zum nachhaltigen Veranstaltungsmanagement leisten sowie durch die Kooperation, GESTA e.V. unterstützen. Ein Gewinn für alle Beteiligten!": "Jedes Jahr machen die Menschen viele Fahnen und Banner.<br> Diese Fahnen und Banner sind für die Aschaffenburger Kultur·tage.<br> Die Fahnen und Banner zeigen das Datum und ein Motto.<br> Wegen dem Motto kann man die Fahnen nicht noch einmal verwenden.<br> Deshalb mussten die Fahnen bisher weg·geworfen werden.<br> Im letzten Jahr hat man die Fahnen zum ersten Mal zu GESTA e.V. gebracht.<br> GESTA e.V. ist eine Näh·werkstatt.<br> Die Menschen bei GESTA e.V. haben aus den Fahnen Taschen gemacht.<br> Jede Tasche ist anders.<br> Man kann die Taschen jetzt im Stadt·theater kaufen.<br> Die Taschen kosten nicht viel.<br> Das Upcycling ist gut für die Umwelt.<br> Deshalb hilft das Kultur·amt der Umwelt.<br> Auch GESTA e.V. bekommt Hilfe.<br> Alle gewinnen dabei.<br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 48.696875000000006,
+    "1. Wiener Sachtextformel": 7.02098125,
+    "G-SMOG Index": 4.708203932499369,
+    "LIX": 54.28125,
+    "Sentence Count": 8,
+    "Word Count": 128,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 8
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 85.01998031496063,
+    "1. Wiener Sachtextformel": 1.6582917322834647,
+    "G-SMOG Index": 0.37170824512628453,
+    "LIX": 29.19734251968504,
+    "Sentence Count": 16,
+    "Word Count": 127,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 4,
+      "sentence_count": 16
+    }
+  }
+}

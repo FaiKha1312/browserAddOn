@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Leichte Sprache - Überall",
+  "version": "1.0",
+  "description": "Diese Erweiterung wandelt jeden Text einer Webseite in Leichte Sprache um.",
+  "icons": {
+    "124": "../icons/reading-book.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "webNavigation",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Testpopup",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.groq.com https://api.openai.com"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "exclude_matches": [
+        "*://www.google.com/search*",
+        "*://www.bing.com/search*",
+        "*://www.ecosia.org/search*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

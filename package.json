@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.7.0",
+    "openai": "^4.72.0"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.0.0-rc.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}

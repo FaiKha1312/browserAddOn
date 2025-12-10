@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <h2>EINSTELLUNGEN</h2>
+  <label for="apiKey">API Key:</label>
+  <input type="text" id="apiKey" placeholder="..." />
+  <br /><br />
+  <label for="clientDropdown">Wähle einen Client:</label>
+  <select id="clientDropdown">
+    <!-- Optionen werden durch das JavaScript hinzugefügt -->
+  </select>
+  <br/><br/>
+
+  <label for="modelDropdown">Wähle ein Modell:</label>
+  <select id="modelDropdown">
+    <!-- Optionen werden durch das JavaScript hinzugefügt -->
+  </select>
+
+  <label for="debugMode">Debug Modus:</label>
+  <input type="checkbox" id="debugMode" />
+  <br/><br/>
+
+  <label for="deactivateTranslation">Übersetzen deaktivieren:</label>
+  <input type="checkbox" id="deactivateTranslation" />
+  <br/><br/>
+
+  <br/>
+  <button id="saveButton">Einstellungen speichern</button>
+
+  <script type="module" src="popup.js"></script>
+</body>
+
+</html>

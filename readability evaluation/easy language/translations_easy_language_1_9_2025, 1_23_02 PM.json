@@ -1,0 +1,44 @@
+{
+  "website": "https://www.mdr.de/nachrichten-leicht/leichte-sprache-sachsen-anhalt-post-streikt-100.html",
+  "model": "easy_language",
+  "translations": {
+    "Osterweddingen ist im Bundes-Land Sachsen-Anhalt.\nDort gibt es ein Paket-Zentrum von der Deutschen Post.\nAber in dem Paket-Zentrum wird heute nicht gearbeitet.\nViele Briefe und Pakete werden erst später geliefert.\nDenn bei der Post wird gestreikt.": "\nOsterweddingen ist im <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-bundesland-100.html\" title=\"Bundes-Land\" data-ctrl-link=\"{'id': '42f43c98-7e28-4247-a5d8-afc43822339e','type':'tooltip','window':{'type':'empty','config':{'title':'Bundes-Land','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Bundes-Land</strong></a> Sachsen-Anhalt.<br>Dort gibt es ein <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-paket-zentrum-100.html\" title=\"Paket-Zentrum\" data-ctrl-link=\"{'id': 'bc81b116-27d8-42ef-bd89-641da6600dd1','type':'tooltip','window':{'type':'empty','config':{'title':'Paket-Zentrum','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Paket-Zentrum</strong></a> von der Deutschen Post.<br>Aber in dem Paket-Zentrum wird heute nicht gearbeitet.<br>Viele Briefe und Pakete werden erst später <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-liefern-100.html\" title=\"liefern\" data-ctrl-link=\"{'id': '7e0d9951-4ea7-4c24-8a43-ad34339db90d','type':'tooltip','window':{'type':'empty','config':{'title':'liefern','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>geliefert</strong></a>.<br>Denn bei der Post wird <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-gestreikt-100.html\" title=\"streiken oder Streik\" data-ctrl-link=\"{'id': '6c8e9a3b-540e-4686-8a40-301e20ce84a4','type':'tooltip','window':{'type':'empty','config':{'title':'streiken oder Streik','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>gestreikt</strong></a>.\n",
+    "Der Streik wird von dieser Gewerkschaft gemacht: DPVKOM.\nDie Gewerkschaft möchte mit dem Streik zeigen:\n    • Die Mitarbeiter von der Post\n      müssen mehr Geld für ihre Arbeit bekommen.\n    • Und sie müssen mehr Urlaubs-Geld bekommen.": "\nDer Streik wird von dieser <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-gewerkschaft-100.html\" title=\"Gewerkschaft\" data-ctrl-link=\"{'id': 'f47e9385-c671-406d-bd3a-3f35d4ba0903','type':'tooltip','window':{'type':'empty','config':{'title':'Gewerkschaft','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Gewerkschaft</strong></a> gemacht: DPVKOM.<br>Die Gewerkschaft möchte mit dem Streik zeigen:<br>&nbsp;&nbsp;&nbsp; • Die Mitarbeiter von der Post<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;müssen mehr Geld für ihre Arbeit bekommen.<br>&nbsp;&nbsp;&nbsp; • Und sie müssen mehr <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-leichte-sprache-urlaubsgeld-100.html\" title=\"Urlaubs-Geld\" data-ctrl-link=\"{'id': 'dd37a8e5-f0dc-4f56-bf51-6bb8cbba0db7','type':'tooltip','window':{'type':'empty','config':{'title':'Urlaubs-Geld','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Urlaubs-Geld</strong></a> bekommen.\n",
+    "Am Dienstag-Morgen hat der Streik angefangen.\nUnd er soll 1 Tag dauern.": "\nAm Dienstag-Morgen hat der Streik angefangen.<br>Und er soll 1 Tag dauern.\n",
+    "Über dieses Thema berichtet der MDR auch in schwerer Sprache:\nMDR SACHSEN-ANHALT HEUTE | 07. Januar 2025 | 19:00 Uhr": "\n<dfn id=\"def-8866684643428807315\">Über dieses Thema berichtet der MDR auch in schwerer Sprache:<br>MDR SACHSEN-ANHALT HEUTE | 07. Januar 2025 | 19:00 Uhr</dfn>\n"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 88.24025880661397,
+    "1. Wiener Sachtextformel": 1.8396892882818112,
+    "G-SMOG Index": 1.7210420376762539,
+    "LIX": 27.856937455068294,
+    "Sentence Count": 13,
+    "Word Count": 107,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 13
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 88.24025880661397,
+    "1. Wiener Sachtextformel": 1.8396892882818112,
+    "G-SMOG Index": 1.7210420376762539,
+    "LIX": 27.856937455068294,
+    "Sentence Count": 13,
+    "Word Count": 107,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 13
+    }
+  }
+}

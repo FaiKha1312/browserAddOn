@@ -1,0 +1,45 @@
+{
+  "website": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/altenburg/unterkunft-fluechtlinge-rassistisch-attacke-schmoelln-100.html",
+  "model": "gpt-4o",
+  "translations": {
+    "Die Polizei ermittelt wegen politisch motivierter Sachbeschädigung und des Verwendens von Kennzeichen verfassungswidriger Organisationen.": "Die Polizei ermittelt.<br> \nEs gab politischen Schaden an Sachen.<br> \nMenschen haben Zeichen von verboten·en Gruppen benutzt.<br>",
+    "Dieses Thema im Programm:\nMDR THÜRINGEN - Das Radio | Regionalnachrichten | 06. Januar 2025 | 17:00 Uhr": "<strong>Dieses Thema im Programm</strong><br>\n<strong>MDR THÜRINGEN - Das Radio</strong><br>\n<strong>Regional·nachrichten</strong><br>\n<strong>6. Januar 2025</strong><br>\n<strong>17:00 Uhr</strong><br>",
+    "Eine Unterkunft für Geflüchtete in Schmölln im Altenburger Land ist Ziel einer rassistischen Attacke geworden. Wie die Polizei mitteilte, warfen Unbekannte am Sonntag eine Fensterscheibe der Unterkunft mit einem Stein ein.": "Eine <a href=\"https://www.mdr.de/nachrichten/thueringen/fluechtlinge-erstaufnahme-auslastung-102.html\">Unterkunft für Geflüchtete</a> in Schmölln im Altenburger Land<br> \nwar Ziel von einer <a href=\"https://www.mdr.de/nachrichten/thueringen/ost-thueringen/altenburg/schmoelln-app-rassismus-neonazi-angriffe-100.html\">rassistischen Attacke</a>.<br> \nDie Polizei sagt: Unbekannte Personen<br> \nhaben am Sonntag eine Fensterscheibe<br> \nvon der Unterkunft mit einem Stein eingeworfen.<br>",
+    "Außerdem sollen sie mit Farbe rechtsradikale und rassistische Sprüche an die Hauswand gesprüht haben. Verletzt wurde bei dem Steinwurf niemand.": "Außerdem sollen die Täter auf die Haus·wand gesprüht haben:<br>  \nRechts·radikale Sprüche<br>  \nRassistische Sprüche<br>  \nNiemand wurde verletzt.<br>  \nSteine haben die Täter geworfen.<br>  ",
+    "Bereits am Freitag hatten Unbekannte an einem Mehrfamilienhaus verfassungsfeindliche Zeichen und volksverhetzende Parolen angebracht. In beiden Fällen sucht die Polizei nach Zeugen.": "<strong>Am Freitag</strong> <br> haben Unbekannte <br> an einem Mehr·familien·haus <br> schlechte Zeichen gemacht. <br> Die Zeichen sind gegen das Grund·gesetz. <br> <br> Diese Unbekannten <br> haben auch böse Sätze geschrieben. <br> Die Sätze sind gegen Menschen. <br> <br> Die Polizei <br> sucht Zeugen. <br> Zeugen sind Menschen, <br> die etwas gesehen haben. <br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 53.85024752475249,
+    "1. Wiener Sachtextformel": 7.471939603960397,
+    "G-SMOG Index": 4.422616289332565,
+    "LIX": 56.18935643564357,
+    "Sentence Count": 8,
+    "Word Count": 101,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 8
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 67.1807962529274,
+    "1. Wiener Sachtextformel": 5.5323564402810295,
+    "G-SMOG Index": 2.1403933560541253,
+    "LIX": 48.878220140515225,
+    "Sentence Count": 14,
+    "Word Count": 122,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 2,
+      "sentence_count": 14
+    }
+  }
+}

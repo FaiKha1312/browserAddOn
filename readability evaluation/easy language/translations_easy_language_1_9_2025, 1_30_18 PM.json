@@ -1,0 +1,45 @@
+{
+  "website": "https://www.aschaffenburg.de/Aktuelles/Aktuelle-Meldungen-in-Leichter-Sprache/DE_index_6736_98195.html",
+  "model": "easy_language",
+  "translations": {
+    "Computer: © Lebenshilfe für Menschen mit geistiger Behinderung Bremen e.V., Illustrator Stefan Albers": "Computer: \n© Lebenshilfe für Menschen mit geistiger Behinderung Bremen e.V., Illustrator Stefan Albers",
+    "Es gab einen Hackerangriff auf die Stadtverwaltung.\nDie Computer von der Stadtverwaltung sind aber nicht kaputt.\nDas hat eine Untersuchung gezeigt.\nDie Untersuchung hat das bayerische Landesamt für Sicherheit in der Informationstechnik gemacht.\nDie kurze Form ist: LSI.\nUnd eine Sicherheitsfirma hat die Untersuchung gemacht.\nHeute werden alle Computer wieder angemacht.\nDas Rathaus und die Außenstellen sind ab Montagmorgen wieder offen.\nUnd man kann sie wieder erreichen.\nDie Theaterkasse ist ab heute Abend wieder offen.": "<span>Es gab einen Hackerangriff auf die Stadtverwaltung.</span><br>\n<span>Die Computer von der Stadtverwaltung sind aber </span><strong><strong>nicht</strong></strong><span> kaputt.</span><br>\n<span>Das hat eine Untersuchung gezeigt.</span><br>\n<span>Die Untersuchung hat das bayerische Landesamt für Sicherheit in der Informationstechnik gemacht.</span><br>\n<span>Die kurze Form ist: LSI.</span><br>\n<span>Und eine Sicherheitsfirma hat die Untersuchung gemacht.</span><br>\n<span>Heute werden alle Computer wieder angemacht.</span><br>\n<span>Das Rathaus und die Außenstellen sind ab Montagmorgen wieder offen.</span><br>\n<span>Und man kann sie wieder erreichen.</span><br>\n<span>Die Theaterkasse ist ab heute Abend wieder offen.</span>",
+    "Am Donnerstag gab es einen Hackerangriff auf die Stadtverwaltung von Aschaffenburg.\nEin Hackerangriff ist ein Angriff auf Computer und Programme.\nDabei wurden einige Benutzerkonten und E-Mailkonten angegriffen.\nDeshalb hat die Stadtverwaltung alle Computer ausgemacht.\nUnd das Rathaus wurde geschlossen.\n\nNächste Woche prüft eine Sicherheitsfirma alle Systeme.\nDie Sicherheitsfirma macht die Systeme noch sicherer.": "<span>Am Donnerstag gab es einen Hackerangriff auf die Stadtverwaltung von Aschaffenburg.</span><br>\n<span>Ein Hackerangriff ist ein Angriff auf Computer und Programme.</span><br>\n<span>Dabei wurden einige Benutzerkonten und E-Mailkonten angegriffen.</span><br>\n<span>Deshalb hat die Stadtverwaltung alle Computer ausgemacht.</span><br>\n<span>Und das Rathaus wurde geschlossen.</span><br>\n<br>\n<span>Nächste Woche prüft eine Sicherheitsfirma alle Systeme.</span><br>\n<span>Die Sicherheitsfirma macht die Systeme noch sicherer.</span>",
+    "Das Bürgerbüro will die Termine von Donnerstag und Freitag nachholen.\nDie Termine sind wegen dem Hackerangriff ausgefallen.\nDeshalb arbeiten am Montag und Dienstag mehr Mitarbeiter im Bürgerbüro.\nSie können ab Montag um 07.30 Uhr einen Termin machen.": "<span>Das Bürgerbüro will die Termine von Donnerstag und Freitag nachholen.</span><br>\n<span>Die Termine sind wegen dem Hackerangriff ausgefallen.</span><br>\n<span>Deshalb arbeiten am Montag und Dienstag mehr Mitarbeiter im Bürgerbüro.</span><br>\n<span>Sie können ab Montag um 07.30 Uhr einen Termin machen.</span>",
+    "Ein Computer hat diesen Text in Leichte Sprache übertragen.\nDer Text ist nicht durch Menschen mit Behinderungen geprüft worden.\nSie können hier dazu mehr lesen.": "<span><span><span><span>Ein Computer hat diesen Text in Leichte Sprache übertragen.<br>\nDer Text ist nicht durch Menschen mit Behinderungen geprüft worden.<br>\n<a href=\"https://www.aschaffenburg.de/disclaimer\">Sie können hier dazu mehr lesen.</a></span></span></span></span>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 62.920977011494244,
+    "1. Wiener Sachtextformel": 4.607213628899836,
+    "G-SMOG Index": 2.0311288741492746,
+    "LIX": 43.433702791461414,
+    "Sentence Count": 24,
+    "Word Count": 203,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 4,
+      "sentence_count": 24
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 62.920977011494244,
+    "1. Wiener Sachtextformel": 4.607213628899836,
+    "G-SMOG Index": 2.0311288741492746,
+    "LIX": 43.433702791461414,
+    "Sentence Count": 24,
+    "Word Count": 203,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 4,
+      "sentence_count": 24
+    }
+  }
+}

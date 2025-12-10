@@ -1,0 +1,8 @@
+# preprocessing and readability metrics
+beautifulsoup4
+stanza
+readability
+
+json
+math
+pandas

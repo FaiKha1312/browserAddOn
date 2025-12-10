@@ -1,0 +1,58 @@
+{
+  "website": "https://www.ndr.de/fernsehen/barrierefreie_angebote/leichte_sprache/Einigung-bei-der-Bahn,lokfuehrer226.html",
+  "model": "easy_language",
+  "translations": {
+    "Bei der Bahn waren in den vergangenen Wochen viele Streiks.": "Bei der Bahn waren in den vergangenen Wochen viele Streiks.",
+    "Diese Menschen sind zum Beispiel mit ihrer Arbeit nicht zufrieden.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diese Menschen sind zum Beispiel mit ihrer Arbeit <strong>nicht</strong> zufrieden.",
+    "Aber jetzt haben sich die Lok·führer und die Bahn geeinigt.": "Aber jetzt haben sich die Lok·führer und die Bahn geeinigt.",
+    "Und deshalb streiken wir in den nächsten 2 Jahren nicht mehr.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Und deshalb streiken wir in den nächsten 2 Jahren <strong>nicht</strong> mehr.",
+    "Eine Gewerkschaft hat den Lok·führern bei dem Streik geholfen.": "Eine Gewerkschaft hat den Lok·führern bei dem Streik geholfen.",
+    "GDL ist die Abkürzung für Gewerkschaft Deutscher Lokomotiv·führer.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GDL ist die Abkürzung für <strong>G</strong>ewerkschaft <strong>D</strong>eutscher <strong>L</strong>okomotiv·führer.",
+    "Die Verhandlungen mit der Bahn waren sehr schwierig.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Die Verhandlungen mit der Bahn waren sehr schwierig.",
+    "Aber jetzt wurden viele von unseren Forderungen erfüllt.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aber jetzt wurden viele von unseren Forderungen erfüllt.",
+    "Die neuen Regeln stehen in einem besonderen Vertrag.": "Die neuen Regeln stehen in einem besonderen Vertrag.",
+    "Ein Tarif·vertrag gilt zum Beispiel für bestimmte Berufe.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ein Tarif·vertrag gilt zum Beispiel für bestimmte Berufe.",
+    "In dem neuen Tarif·vertrag für die Lok·führer steht zum Beispiel:": "In dem neuen Tarif·vertrag für die Lok·führer steht zum Beispiel:",
+    "Bis 2029 sinkt die Arbeits·zeit auf 35 Stunden in der Woche.": "Bis 2029 sinkt die Arbeits·zeit auf 35 Stunden in der Woche.",
+    "Im Moment arbeiten die Lok·führer noch 39 Stunden in der Woche.": "Im Moment arbeiten die Lok·führer noch 39 Stunden in der Woche.",
+    "Die Lok·führer bekommen für ihre Arbeit auch mehr Geld als bisher.": "Die Lok·führer bekommen für ihre Arbeit auch mehr Geld als bisher.",
+    "Ab August 2024 bekommen sie jeden Monat 210 Euro mehr.": "Ab August 2024 bekommen sie jeden Monat 210 Euro mehr.",
+    "Und ab April 2025 bekommen sie jeden Monat noch einmal 210 Euro mehr.": "Und ab April 2025 bekommen sie jeden Monat noch einmal 210 Euro mehr.",
+    "Viele Dinge sind für alle Menschen teurer geworden.": "Viele Dinge sind für alle Menschen teurer geworden.",
+    "Deshalb bekommen die Lok·führer auch noch eine einmalige Zahlung von 2850 Euro.": "Deshalb bekommen die Lok·führer auch noch eine einmalige Zahlung von 2850 Euro."
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 76.43569518716579,
+    "1. Wiener Sachtextformel": 3.558625401069519,
+    "G-SMOG Index": 2.6017899330842225,
+    "LIX": 36.48930481283423,
+    "Sentence Count": 17,
+    "Word Count": 176,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 3,
+      "sentence_count": 17
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 76.43569518716579,
+    "1. Wiener Sachtextformel": 3.558625401069519,
+    "G-SMOG Index": 2.6017899330842225,
+    "LIX": 36.48930481283423,
+    "Sentence Count": 17,
+    "Word Count": 176,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 3,
+      "sentence_count": 17
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "website": "https://www.aschaffenburg.de/Aktuelles/Aktuelle-Meldungen/DE_index_4160_98518.html",
+  "model": "gpt-4o",
+  "translations": {
+    "Ab 19 Uhr sind Sir Sonntag mit Cocos, Bitumen mit LuSpencer und Antinger zu hören.": "Ab 19 Uhr<br>\nspielt die Musik·gruppe Sir Sonntag.<br>\nDann spielen diese Gruppen: <br>\nCocos<br>\nBitumen<br>\nLuSpencer<br>\nAntinger<br>",
+    "„Mic Drop Mayhem“ heißt eine Hip-Hop-Veranstaltung, die das Jugendkulturzentrum (JUKUZ) am Freitag, 13. Dezember, im Kirchhofweg 2 veranstaltet.": "<strong>Mic Drop Mayhem</strong> ist eine Hip-Hop-Veranstaltung<br> im Jugend·kultur·zentrum.<br> Das Jugend·kultur·zentrum heißt: <strong>JUKUZ</strong>.<br> Die Veranstaltung ist am Freitag.<br> Datum: 13. Dezember.<br> Adresse: Kirchhofweg 2.<br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 67.54774774774775,
+    "1. Wiener Sachtextformel": 3.1828090090090093,
+    "G-SMOG Index": 1.1622776601683795,
+    "LIX": 39.36036036036036,
+    "Sentence Count": 3,
+    "Word Count": 37,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 1,
+      "sentence_count": 3
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 64.17154471544714,
+    "1. Wiener Sachtextformel": 3.178265040650407,
+    "G-SMOG Index": -2.0,
+    "LIX": 43.41869918699187,
+    "Sentence Count": 6,
+    "Word Count": 41,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 1,
+      "sentence_count": 6
+    }
+  }
+}

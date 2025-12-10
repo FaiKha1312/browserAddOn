@@ -1,0 +1,43 @@
+{
+  "website": "https://soziales.hessen.de/Betreutes-Wohnen",
+  "model": "llama-3.1-70b-versatile",
+  "translations": {
+    "Die Fachkommission trägt dafür Sorge, den quantitativen und qualitativen Ausbau ambulant betreuter Wohnmöglichkeiten für Menschen mit Behinderungen zu begleiten, Empfehlungen zu grundsätzlichen Fragestellungen zu geben und die Gewährleistung landesweit einheitlicher Hilfestandards zu fördern.": "Die Fachkommission hilft Menschen mit Behinderungen<br>\nSie sorgt dafür, dass Menschen mit Behinderungen guten Wohnraum bekommen<br>\nDie Fachkommission gibt Empfehlungen<br>\nSie sagt, wie man Menschen mit Behinderungen helfen kann<br>\nDie Fachkommission will sicherstellen, dass alle Menschen mit Behinderungen gleich geholfen werden<br>\nSie will, dass die Hilfe in ganz Deutschland gleich gut ist<br>\nDie Fachkommission macht Vorschläge, wie man die Hilfe verbessern kann<br>\nSie will, dass die Menschen mit Behinderungen ein gutes Leben haben<br>\nDie Fachkommission arbeitet daran, dass die Hilfe für Menschen mit Behinderungen besser wird<br>",
+    "Der Auf- und Ausbau ambulanter Wohnangebote für Menschen mit Behinderungen wird in Hessen seit Jahren durch eine landesweite Fachkommission auf der Grundlage der Vereinbarung zwischen dem Land Hessen, den kommunalen Spitzenverbänden sowie dem Landeswohlfahrtsverband Hessen nach § 3 b des Hessischen Ausführungsgesetzes zum Zwölften Buch Sozialgesetzbuch (HAG / SGB XII) in Zusammenarbeit mit der Liga der freien Wohlfahrtspflege in Hessen sowie mit privaten Einrichtungsträgern koordiniert und unterstützt.": "Der Auf- und Aus·bau von ambulan·ten Wohn·ange·boten für Men·schen mit Behin·de·run·gen wird in Hes·sen seit Jah·ren ge·plant und um·ge·setzt.<br>\nDas ge·schieht mit einer lan·des·wei·ten Fach·kom·mis·si·on.<br>\nDie Fach·kom·mis·si·on ar·bei·tet mit ver·schied·e·nen Or·ga·ni·sa·ti·o·nen zu·sam·men.<br>\nDa sind das Land Hes·sen und die kom·mu·na·len Spit·zen·ver·bän·de.<br>\nDa sind auch der Lan·des·wohl·fahrts·ver·band Hes·sen und die Li·ga der freien Wohl·fahrts·pfle·ge in Hes·sen.<br>\nUnd da sind pri·va·te Ein·rich·tungs·trä·ger.<br>\nAl·le zu·sam·men wil·len sie das Wohn·en für Men·schen mit Behin·de·run·gen ver·bes·sern.<br>\nDie Zu·sam·men·ar·beit ge·schieht nach § 3 b des Hessischen Aus·füh·rungs·ge·set·zes zum Zwölf·ten Buch So·zi·al·ge·setz·buch (HAG / SGB XII).<br>",
+    "Dies geschieht auch durch den vorliegenden Bericht, der Daten der stationären, teilstationären und ambulanten Leistungen der Eingliederungshilfe sowie ergänzender Leistungen der Gebietskörperschaften und des Landeswohlfahrtsverbandes Hessen beinhaltet sowie einen Kostenvergleich zu anderen ambulanten, teilstationären und stationären Betreuungsformen. Darüber hinaus werden diese Daten einer Bewertung und Analyse zugeführt.": "Dieser Bericht hilft auch <br>\ndabei: \n: Daten über verschiedene Arten von Hilfe zusammenzustellen <br>\nDaten über Hilfe zu Hause·angeboten·stellen vor Ort <br>\nDaten über Hilfe in Ein·richtungen·stellen·angeboten <br>\nDaten über Hilfe für Menschen mit Behinderung·stellen·angeboten <br>\nDann werden diese Daten verglichen <br>\nMIT anderen Arten von Hilfe <br>\nzum Beispiel mit Hilfe zu Hause·angeboten·stellen vor Ort <br>\noder mit Hilfe in Ein·richtungen·stellen·angeboten <br>\nDieser Bericht hilft auch dabei <br>\ndiese Daten zu bewerten <br>\nund zu analysieren <br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 9.79041095890409,
+    "1. Wiener Sachtextformel": 12.481156164383563,
+    "G-SMOG Index": 11.693063937629153,
+    "LIX": 78.96575342465754,
+    "Sentence Count": 4,
+    "Word Count": 146,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 4
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 41.07181818181819,
+    "1. Wiener Sachtextformel": 6.7881666666666645,
+    "G-SMOG Index": 5.385489458759964,
+    "LIX": 54.734848484848484,
+    "Sentence Count": 11,
+    "Word Count": 240,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 11
+    }
+  }
+}

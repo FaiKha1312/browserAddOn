@@ -1,0 +1,44 @@
+{
+  "website": "https://www.mdr.de/nachrichten-leicht/leichte-sprache-thueringen-schmoelln-attacke-unterkunft-100.html",
+  "model": "easy_language",
+  "translations": {
+    "Schmölln ist eine Stadt im Bundes-Land Thüringen.\nDort gab es am Sonntag einen Angriff\nauf eine Flüchtlings-Heim.\nUnbekannte Menschen haben\nein Fenster mit einem Stein beworfen.\nDabei ist die Fenster-Scheibe kaputt gegangen.": "\nSchmölln ist eine Stadt im <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-bundesland-100.html\" title=\"Bundes-Land\" data-ctrl-link=\"{'id': '0dabec8f-702b-496a-aca0-fe2be815673b','type':'tooltip','window':{'type':'empty','config':{'title':'Bundes-Land','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Bundes-Land</strong></a> Thüringen.<br>Dort gab es am Sonntag einen <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-angreifen-Angriff-100.html\" title=\"angreifen oder Angriff\" data-ctrl-link=\"{'id': 'a347c08c-df69-40ff-bf3b-fc515a241684','type':'tooltip','window':{'type':'empty','config':{'title':'angreifen oder Angriff','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Angriff</strong></a><br>auf eine <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-fluechtlings-heim-100.html\" title=\"Flüchtlings-Heim\" data-ctrl-link=\"{'id': 'd0dee12d-dee2-4a76-99ad-2732ef1bb4b6','type':'tooltip','window':{'type':'empty','config':{'title':'Flüchtlings-Heim','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Flüchtlings-Heim</strong></a>.<br><a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-unbekannt-100.html\" title=\"unbekannt oder Unbekannte\" data-ctrl-link=\"{'id': 'b27b462b-f34d-43f3-81cd-1c3c50167eb2','type':'tooltip','window':{'type':'empty','config':{'title':'unbekannt oder Unbekannte','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Unbekannte</strong></a> Menschen haben <br>ein Fenster mit einem Stein beworfen.<br>Dabei ist die Fenster-Scheibe kaputt gegangen.\n",
+    "Die Menschen haben auch\nmit Farbe an die Hauswand geschrieben.\nDabei haben sie rassistische Sachen geschrieben.\nUnd sie haben rechts-radikale Sachen geschrieben.\nDas ist am Freitag auch schon\nbei einem anderen Haus passiert.": "\nDie Menschen haben auch<br>mit Farbe an die Hauswand geschrieben.<br>Dabei haben sie <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-rassismus-100.html\" title=\"rassistisch oder Rassismus\" data-ctrl-link=\"{'id': '03f769e9-737b-454d-bd1b-1690b8936fa4','type':'tooltip','window':{'type':'empty','config':{'title':'rassistisch oder Rassismus','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>rassistische</strong></a> Sachen geschrieben.<br>Und sie haben <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-rechts-extrem-100.html\" title=\"rechts-extrem\" data-ctrl-link=\"{'id': 'ef00c32d-1703-43f0-bfa6-37904ab9736a','type':'tooltip','window':{'type':'empty','config':{'title':'rechts-extrem','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>rechts-radikale</strong></a> Sachen geschrieben.<br>Das ist am Freitag auch schon <br>bei einem anderen Haus passiert.\n",
+    "Bis jetzt weiß die Polizei noch nicht,\nwer die Menschen sind.\nDeshalb sucht die Polizei jetzt nach Zeugen.\nDas bedeutet:\nMenschen können bei der Polizei Bescheid sagen:\n    • Wenn sie etwas wissen\n    • oder wenn sie etwas gesehen haben.": "\nBis jetzt weiß die Polizei noch nicht,<br>wer die Menschen sind.<br>Deshalb sucht die Polizei jetzt nach <a href=\"https://www.mdr.de/nachrichten-leicht/woerterbuch/glossar-zeugen-100.html\" title=\"Zeuge oder Zeugin oder Zeugen\" data-ctrl-link=\"{'id': '131744d4-6851-4fbb-8614-96b5aa7976dd','type':'tooltip','window':{'type':'empty','config':{'title':'Zeuge oder Zeugin oder Zeugen','top':'0','left':'0','width':'0','height':'0','status':'0','menubar':'0','location':'0','scroll':'0','toolbar':'0','resizable':'0'}}}\" style=\"position: relative; cursor: pointer;\"><strong>Zeugen</strong></a>.<br>Das bedeutet:<br>Menschen können bei der Polizei Bescheid sagen:<br>&nbsp;&nbsp;&nbsp; • Wenn sie etwas wissen<br>&nbsp;&nbsp;&nbsp; • oder wenn sie etwas gesehen haben.\n",
+    "Über dieses Thema berichtet der MDR auch in schwerer Sprache:\nMDR THÜRINGEN - Das Radio | Regionalnachrichten | 06. Januar 2025 | 17:00 Uhr": "\n<dfn id=\"def-8866684643428807315\">Über dieses Thema berichtet der MDR auch in schwerer Sprache:<br>MDR THÜRINGEN - Das Radio | Regionalnachrichten | 06. Januar 2025 | 17:00 Uhr</dfn>\n"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 79.19759615384616,
+    "1. Wiener Sachtextformel": 4.191511298076923,
+    "G-SMOG Index": 3.0383147365577887,
+    "LIX": 37.97115384615385,
+    "Sentence Count": 13,
+    "Word Count": 128,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 5,
+      "sentence_count": 13
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 77.90769230769233,
+    "1. Wiener Sachtextformel": 4.426823687423688,
+    "G-SMOG Index": 3.0383147365577887,
+    "LIX": 39.057387057387054,
+    "Sentence Count": 13,
+    "Word Count": 126,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 5,
+      "sentence_count": 13
+    }
+  }
+}

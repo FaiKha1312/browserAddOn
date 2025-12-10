@@ -1,0 +1,52 @@
+{
+  "website": "https://www.tagesschau.de/inland/gesellschaft/dwd-wetter-jahresbilanz-100.html",
+  "model": "gpt-4o-mini",
+  "translations": {
+    "Um besser gegen Extremwetter gewappnet zu sein, hat das Kabinett eine Strategie zur Klimaanpassung beschlossen. mehr": "Das Kabinett hat eine Strategie beschlossen. <br> Diese Strategie hilft uns. <br> Sie hilft gegen Extrem·wetter. <br> Wir wollen besser auf Extrem·wetter vorbereitet sein. <br>",
+    "Es dauert noch einige Tage bis zum Jahreswechsel, aber der Deutsche Wetterdienst kann schon jetzt einen Temperaturrekord für das Gesamtjahr 2024 nachweisen. Auch global entwickeln sich die Werte ähnlich.": "Es dauert noch einige Tage bis zum Jahreswechsel.<br> \nAber der Deutsche Wetterdienst kann schon jetzt einen Temperaturrekord für das Jahr 2024 nachweisen.<br> \nAuch weltweit entwickeln sich die Werte ähnlich.<br>",
+    "12.12.2024 • 06:00 Uhr\n\nFünf Jahre Bundes-Klimaschutzgesetz\nDeutschland verfehlt selbst gesteckte Klimaziele": "<strong>Am 12. Dezember 2024</strong><br> \n<strong>Um 6:00 Uhr</strong><br> \n<strong>Feiern wir fünf Jahre vom Bundes-Klimaschutz·gesetz.</strong><br> \n<strong>Deutschland hat die eigenen Klimaziele nicht erreicht.</strong><br>",
+    "Das Jahr 2024 war nach Angaben des Deutschen Wetterdiensts (DWD) in Offenbach das wärmste Jahr seit dem flächendeckenden Messbeginn im Jahr 1881. Dies sei etwa zwei Wochen vor dem Jahresende bereits klar.": "Das Jahr 2024<br> war das wärmste Jahr<br> seit 1881.<br> Das sagt der Deutsche Wetterdienst (DWD)<br> in Offenbach.<br> Es war schon<br> etwa zwei Wochen<br> vor dem Jahresende klar.<br>",
+    "Der DWD will seine offizielle Jahresbilanz für 2024 am 30. Dezember veröffentlichen. Dann wird es weitere Angaben zu dem Rekord bei der Temperatur sowie zur Regenmenge und Sonnenscheindauer geben.": "Der DWD will seine offizielle Jahres·bilanz für 2024 am 30. Dezember veröffentlichen.<br> Dann gibt es mehr Informationen.<br> Es geht um den Rekord bei der Temperatur.<br> Es geht auch um die Regenmenge und die Sonnenschein·dauer.<br>",
+    "Die Folgen der sich weiter verstärkenden Erderwärmung machten sich mit häufigeren und intensiveren Wetterextremen bemerkbar, ergänzte DWD-Vorstand Fuchs. \"Als Gesellschaft und als Einzelne müssen wir unser Klima viel besser schützen.\"": "<strong>Die Erde wird immer wärmer.</strong> <br>  \n<strong>Das merken wir an den Wetter·extremen.</strong> <br>  \n<strong>Das sind zum Beispiel häufige und starke Wetter·ereignisse.</strong> <br>  \n<strong>Das sagt Fuchs vom DWD.</strong> <br>  \n<strong>Wir müssen das Klima besser schützen.</strong> <br>  \n<strong>Das müssen wir als Gesellschaft machen.</strong> <br>  \n<strong>Und jeder Einzelne muss auch dazu beitragen.</strong> <br>",
+    "Auch global sieht es nach einem erneuten Temperaturrekord aus. Der EU-Klimawandeldienst Copernicus berichtete bereits vergangene Woche, dass das Jahr 2024 darauf zusteuere. Es dürfte demnach auch das erste Jahr werden, in dem es im Durchschnitt mehr als 1,5 Grad Celsius wärmer war als im vorindustriellen Mittel.": "Die Welt wird wieder wärmer. <br> Der EU-Klimawandel·dienst Copernicus hat das gesagt. <br> Copernicus hat letzte Woche einen Bericht geschrieben. <br> Im Jahr 2024 könnte es einen neuen Temperatur·rekord geben. <br> Dann wäre es das erste Jahr. <br> Im Durchschnitt wäre es mehr als 1,5 Grad Celsius wärmer. <br> Das ist im Vergleich zum vorindustriellen Mittel. <br>",
+    "Copernicus stützt sich auf einen Datensatz, der auf Milliarden von Messungen von Satelliten, Schiffen, Flugzeugen und Wetterstationen auf der ganzen Welt basiert. Auch der Deutsche Wetterdienst liefert Daten zu. Die US-Klimabehörde NOAA war zuletzt ebenfalls der Ansicht, dass 2024 ein Rekordjahr werden dürfte.": "Copernicus nutzt viele Daten.<br>  \nDiese Daten kommen von Milliarden Messungen.<br>  \nDie Messungen sind von: <br>  \n• Satelliten.<br>  \n• Schiffen.<br>  \n• Flugzeugen.<br>  \n• Wetterstationen aus aller Welt.<br>  \nDer Deutsche Wetterdienst gibt auch Daten dazu.<br>  \nDie US-Klimabehörde NOAA sagt: <br>  \nIm Jahr 2024 könnte es viele Rekorde geben.<br>",
+    "\"Noch nie war es in Deutschland seit Ende des 19. Jahrhunderts so warm wie 2024\", erklärte der DWD-Vorstand für Klima und Umwelt, Tobias Fuchs. Schon 2023 war das bis dahin wärmste Jahr in Deutschland gewesen, 2022 hatte zu den zwei wärmsten Jahren gezählt.": "<strong>2024 ist das bisher wärmste Jahr in Deutschland.</strong><br>  \n<strong>Das sagt Tobias Fuchs.</strong><br>  \n<strong>Er ist der Chef vom DWD.</strong><br>  \n<strong>DWD ist die Abkürzung für Deutschen Wetterdienst.</strong><br>  \n<strong>2023 war auch sehr warm.</strong><br>  \n<strong>Es war das bisher wärmste Jahr bis 2024.</strong><br>  \n<strong>2022 war auch sehr warm.</strong><br>  \n<strong>2022 gehört zu den zwei wärmsten Jahren in Deutschland.</strong><br>",
+    "Player: audio\nAWI-Forscher erklären jüngste Rekordhitze\n\n05.12.2024 • 20:00 Uhr\n\nRätsel um sprunghaften Anstieg\nFehlende Wolken begünstigen Erderwärmung": "<strong>AWI-Forscher erklären:</strong> <br> \n<strong>Die Forscher sagen:</strong> <br> \n<strong>Es gibt eine Rekord·hitze.</strong> <br> \n<strong>Das ist am 05.12.2024 um 20:00 Uhr passiert.</strong> <br> \n<strong>Es gibt ein Rätsel:</strong> <br> \n<strong>Warum ist die Hitze so schnell gestiegen?</strong> <br> \n<strong>Wolken fehlen.</strong> <br> \n<strong>Deshalb gibt es viel Erderwärmung.</strong> <br>",
+    "Player: audio\nCOP29: Forschende legen neuen Klimaschutz-Index in Baku vor\n\n20.11.2024 • 12:06 Uhr\n\nKlimaschutz-Index\nDeutschland steigt im Länder-Vergleich ab": "Deutschland steigt im Länder·Vergleich ab.<br>  \nForschende legen neuen Klimaschutz·Index vor.<br>  \nDer Klimaschutz·Index ist in Baku.<br>  \nDas ist am 20.11.2024 um 12:06 Uhr geschehen.<br>  ",
+    "Player: video\nForscher arbeiten am verbesserten Hochwasserschutz\n\n21.11.2024 • 12:12 Uhr\n\nStand der Forschung\nWie schützen wir uns vor Hochwasser?": "Forscher arbeiten an einem besseren Hoch·wasser·schutz.<br>  \nDie Forscher fragen: Wie können wir uns vor Hoch·wasser schützen? <br>  \nEs ist wichtig, bessere Wege zu finden, um uns zu schützen. <br>  \nDas Hoch·wasser kann große Schäden bringen.<br>  \nDeshalb wollen die Forscher Lösungen finden.<br>  "
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 68.13855496088927,
+    "1. Wiener Sachtextformel": 4.807921449156031,
+    "G-SMOG Index": 3.175491695067657,
+    "LIX": 44.66951420337587,
+    "Sentence Count": 28,
+    "Word Count": 347,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 1,
+      "sentence_count": 28
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 80.74981993716959,
+    "1. Wiener Sachtextformel": 2.0945462110183133,
+    "G-SMOG Index": 0.7824333745610095,
+    "LIX": 31.73094015784231,
+    "Sentence Count": 62,
+    "Word Count": 421,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 11,
+      "sentence_count": 62
+    }
+  }
+}

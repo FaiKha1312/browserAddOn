@@ -1,0 +1,49 @@
+{
+  "website": "https://www.bmj.de/DE/rechtsstaat_kompakt/grundgesetz/einleitung_grundgesetz/einleitung_grundgesetz_node.html",
+  "model": "llama-3.1-70b-versatile",
+  "translations": {
+    "Das Grundgesetz ist die Verfassung der Bundesrepublik Deutschland. Es ist die rechtliche Grundordnung unseres Gemeinwesens.": "Das Grund·gesetz ist die Ver·fassung von Deutschland.<br>\nEs ist die recht·liche Grund·ordnung unseres Lan·des.<br>\nDas Grund·gesetz ist sehr wichtig.<br>\nEs sagt aus: <br>\nWie unser Land regiert wird.<br>\nEs ist wie eine Art Ver·trag zwischen dem Staat und den Menschen.<br>\nDas Grund·gesetz ist das höch·ste Gesetz in Deutsch·land.<br>",
+    "Das Grundgesetz als unsere Verfassung ist das grundlegende, fundamentale Gesetz. Dort stehen die wichtigsten Regeln für das Zusammenleben in unserem Staat. Die Verfassung ist allen anderen Gesetzen übergeordnet. Kein anderes Gesetz darf gegen sie verstoßen.": "Das Grund·gesetz ist unsere Verfassung.<br>\nEs ist das wichtigste Gesetz.<br>\nDas Grund·gesetz ist allen anderen Gesetzen über·geordnet.<br>\nDas bedeutet:<br>\nKein anderes Gesetz darf gegen das Grund·gesetz ver·stoßen.<br>\nIm Grund·gesetz stehen die wichtigsten Regeln.<br>\nDiese Regeln sind für das Zusammen·leben in unserem Staat wichtig.<br>\nDie Regeln im Grund·gesetz sind wie eine Art Ver·fassung.<br>\nSie sagen uns:<br>\nWie wir zusammen·leben sollen.<br>\nWie wir unsere Rechte und Pflichten haben.<br>",
+    "Die moderne Verfassungsidee, wie sie dem Grundgesetz im Verfassungskonvent von Herrenchiemsee 1948 zugrunde gelegt wurde, entstammt dem 18. Jahrhundert. Seitdem versteht man unter Verfassungen Gesetzestexte, die staatliche Herrschaft konstituieren, ordnen und legitimieren. Verfassungen bestimmen umfassend, wer wie und in welchen Grenzen regieren darf und wer nicht. Dabei beanspruchen Verfassungen Vorrang vor allen anderen Gesetzen eines Staats. Unser Grundgesetz knüpft an die Paulskirchenverfassung von 1849 und die Weimarer Verfassung von 1919 an.": "Die moderne Verfassungsidee ist alt<br>\nSie stammt aus dem 18. Jahrhundert<br>\nDas bedeutet:<br>\nVerfassungen sind Gesetzestexte<br>\nDiese Texte sagen aus:<br>\nWie ein Staat regiert wird<br>\nWer regieren darf<br>\nWer nicht regieren darf<br>\nVerfassungen sagen auch aus:<br>\nIn welchen Grenzen regiert werden darf<br>\nUnser Grundgesetz ist so ein Text<br>\nEs gibt Regeln für Deutschland<br>\nUnser Grundgesetz ist wichtig<br>\nEs sagt aus:<br>\nWer in Deutschland regieren darf<br>\nWer nicht regieren darf<br>\nVerfassungen sind <strong>wichtig</strong><br>\nSie haben Vorrang vor anderen Gesetzen<br>\nDas heißt:<br>\nVerfassungen sind <strong>immer vorrangig</strong><br>\nUnser Grundgesetz knüpft an andere Verfassungen an<br>\nDas sind die Paulskirchen·verfassung und die Weimarer Verfassung<br>\nDie Paulskirchen·verfassung ist von 1849<br>\nDie Weimarer Verfassung ist von 1919<br>",
+    "Das Grundgesetz hat sich als Verfassung bewährt. Gleichzeitig bietet es – gegebenenfalls durch Verfassungsänderungen – die notwendige Offenheit, neuen Entwicklungen Rechnung tragen zu können. Ideen und Institutionen des Grundgesetzes wirken sich positiv auf die staatliche und gesellschaftliche Entwicklung unseres Zusammenlebens aus. So sind etwa der Schutz Andersdenkender, politischer wie sozialer Minderheiten und die Gleichstellung der Geschlechter nicht nur rechtlich garantiert, sondern auch im Bewusstsein der Bevölkerung verankert. Mit dem Bundesverfassungsgericht hat das Grundgesetz einen gesellschaftlich breit anerkannten und angesehenen obersten Verfassungsinterpreten geschaffen. Die Entscheidungen des Bundesverfassungsgerichts wirken in Deutschland und auch darüber hinaus immer wieder prägend.": "Das Grund·gesetz ist eine gute Verfassung für unser Land <br>\nEs bietet die Möglichkeit, sich zu ändern, wenn das notwendig ist <br>\nDas Grund·gesetz hilft uns, neue Entwicklungen zu meistern <br>\nEs gibt gute Ideen und Institutionen, die unser Zusammen·leben verbessern <br>\nDer Schutz von Menschen, die anders denken, ist wichtig <br>\nDas gilt auch für Minder·heiten und für die Gleich·stellung der Geschlechter <br>\nDiese Rechte sind im Grund·gesetz fest·geschrieben <br>\nDie Menschen in Deutschland wissen, wie wichtig diese Rechte sind <br>\nDas Bundes·verfassungs·gericht ist ein wichtiger Teil des Grund·gesetzes <br>\nEs entscheidet, was im Grund·gesetz steht und was es bedeutet <br>\nDie Entscheidungen des Gerichts sind wichtig für Deutschland und auch für andere Länder <br>\nSie helfen, unsere Gesellschaft zu forme <br>",
+    "Das Bundesministerium der Justiz verwendet für den Betrieb dieser Internetseite technisch notwendige Cookies. Darüber hinaus können Sie Cookies für eine Webanalyse zulassen, die uns die Bereitstellung unserer Dienste erleichtern. Weitere Informationen dazu, insbesondere zu der Widerrufsmöglichkeit, erhalten Sie über den folgenden Link: Datenschutz": "Das Bundes·ministerium der Justiz verwendet Cookies für diese Internet·seite. <br>\nDas ist technisch notwendig. <br>\nCookies helfen uns auch bei der Web·analyse. <br>\nDas macht unsere Arbeit leichter. <br>\nSie können entscheiden: \n: \n\tWollen Sie Cookies zulassen? <br>\nSie können sich über Cookies informieren. <br>\nDann klicken Sie auf diesen Link: <strong><a href=\"https://www.bmj.de/DE/service/datenschutz/datenschutz_node.html\">Datenschutz</a></strong>. <br>\nDort finden Sie Informationen über Cookies. <br>\nDort lesen Sie auch: \n: \n\tWie Sie Cookies ablehnen können. <br>",
+    "Als Staatsverfassung formt das Grundgesetz unsere staatliche Ordnung. Die Menschenwürde steht am Anfang des Verfassungstexts. Sie zu schützen ist das grundlegende Gebot. Der freiheitlich-demokratische Verfassungsstaat des Grundgesetzes ist auf sie ausgerichtet.": "Das Grundgesetz ist unsere Verfassung.<br>\nEs formt unsere staatliche Ordnung.<br>\nDie Menschen·würde ist sehr wichtig.<br>\nSie steht am Anfang des Verfassungs·texts.<br>\nWir müssen die Menschen·würde schützen.<br>\nDas ist ein wichtiges Gebot.<br>\nDer Staat ist frei·heitlich und demokratisch.<br>\nDas Grundgesetz ist auf die Menschen·würde ausgerichtet.<br>\nDas heißt:<br>\nDie Menschen·würde ist das Wichtigste.<br>\nDer Staat soll sie schützen.<br>",
+    "Als Gesetzestext ist die Verfassung das höchste Gesetz der Bundesrepublik. Es entscheidet über die Gültigkeit aller anderen Gesetze. Gesetze, die sich nicht an die Vorgaben des Grundgesetzes halten, sind verfassungswidrig.": "Die Verfassung ist das höchste Gesetz in Deutschland<br>\nDas heißt: \n    Die Verfassung ist das wichtigste Gesetz<br>\n    Alle anderen Gesetze müssen sich an die Verfassung halten<br>\nGesetze, die nicht mit der Verfassung übereinstimmen, sind <strong>nicht</strong> gültig<br>\nSie sind verfassungs·widrig<br>\nDas bedeutet: \n    Diese Gesetze dürfen <strong>nicht</strong> angewendet werden<br>\n    Sie sind gegen die Verfassung<br>",
+    "Das Grundgesetz ist ein Gegenentwurf zur nationalsozialistischen Unrechtsherrschaft. Mit dem Grundgesetz sollte eine Ordnung geschaffen werden, die nie wieder Diktatur, Shoa und Weltkrieg zulassen würde. Schon der erste Artikel der Verfassung sagt „Die Würde des Menschen ist unantastbar.“ Das schreiben die Mütter und Väter des Grundgesetzes nur wenige Jahre nach dem Ende des Zweiten Weltkriegs. Der dritte Artikel des Grundgesetzes bestimmt „Alle Menschen sind vor dem Gesetz gleich. Männer und Frauen sind gleichberechtigt.“": "Das Grund·gesetz ist ein Gegen·entwurf zur national·sozialistischen Un·rechts·herrschaft.<br>\nMit dem Grund·gesetz sollte eine Ordnung geschaffen werden.<br>\nDiese Ordnung soll nie wieder Diktatur, Schoa und Welt·krieg zulassen.<br>\nDas schreiben die Mütter und Väter des Grund·gesetzes.<br>\nSie schreiben das nur wenige Jahre nach dem Ende des zweiten Welt·krieges.<br>\nDer erste Artikel der Verfassung sagt: „Die Würde des Menschen ist un·antast·bar.“<br>\nDas ist wichtig.<br>\nDer dritte Artikel des Grund·gesetzes bestimmt:<br>\nAlle Menschen sind vor dem Gesetz gleich.<br>\nMänner und Frauen sind gleich·berech·tigt.<br>",
+    "Das Grundgesetz setzt der staatlichen Machtausübung Grenzen und unterwirft sie der demokratischen Kontrolle. Dass allen Menschen Würde zukommt oder dass unser Staat ein demokratischer sein muss, ist nicht verhandelbar und ist keine Frage der politischen Entscheidung.": "Das Grund·gesetz setzt Grenzen für die Macht des Staates<br>\nEs kontrolliert den Staat <br>\nDas bedeutet: Der Staat muss dem Volk gegenüber Rechenschaft ablegen<br>\nAllen Menschen kommt <strong>Würde</strong> zu<br>\nUnser Staat muss ein demokratischer Staat sein<br>\nDas sind keine Fragen für politische Entscheidungen<br>\nDas sind keine Dinge, über die man verhandeln kann<br> \nDas ist nicht verhandelbar<br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 48.794847870182565,
+    "1. Wiener Sachtextformel": 7.572199459093984,
+    "G-SMOG Index": 5.2151800760210945,
+    "LIX": 53.713657876943884,
+    "Sentence Count": 34,
+    "Word Count": 435,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 6,
+      "sentence_count": 34
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 65.94320652173913,
+    "1. Wiener Sachtextformel": 5.326557744565218,
+    "G-SMOG Index": 4.203084786585237,
+    "LIX": 44.85054347826087,
+    "Sentence Count": 46,
+    "Word Count": 640,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 13,
+      "sentence_count": 46
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "website": "https://soziales.hessen.de/Betreutes-Wohnen",
+  "model": "gpt-4o",
+  "translations": {
+    "Die Fachkommission trägt dafür Sorge, den quantitativen und qualitativen Ausbau ambulant betreuter Wohnmöglichkeiten für Menschen mit Behinderungen zu begleiten, Empfehlungen zu grundsätzlichen Fragestellungen zu geben und die Gewährleistung landesweit einheitlicher Hilfestandards zu fördern.": "Die Fach·kommission arbeitet für bessere Wohn·möglichkeiten.<br>  \nMenschen mit Behinderungen sollen besser wohnen können.<br>  \nDie Fach·kommission gibt Empfehlungen.<br>  \nDie Fach·kommission sorgt für gleiche Hilfe·standards.<br>  ",
+    "Dies geschieht auch durch den vorliegenden Bericht, der Daten der stationären, teilstationären und ambulanten Leistungen der Eingliederungshilfe sowie ergänzender Leistungen der Gebietskörperschaften und des Landeswohlfahrtsverbandes Hessen beinhaltet sowie einen Kostenvergleich zu anderen ambulanten, teilstationären und stationären Betreuungsformen. Darüber hinaus werden diese Daten einer Bewertung und Analyse zugeführt.": "Der Bericht erklärt verschiedene Dinge.<br>\nDiese Dinge sind:<br>\nDaten von Leistungen der Eingliederungs·hilfe.<br>\nLeistungen können sein:<br>\nstationär<br>\nteil·stationär<br>\nambulant<br>\nEs gibt auch Leistungen von den Gebietskörperschaften.<br>\nDas Land Wohlfahrts·verband Hessen ist auch dabei.<br>\nDer Bericht vergleicht die Kosten.<br>\nEs gibt einen Vergleich zu anderen Leistungen:<br>\nambulant<br>\nteil·stationär<br>\nstationär<br>\nDer Bericht analysiert die Daten.<br>\nDer Bericht bewertet die Daten.<br>",
+    "Der Auf- und Ausbau ambulanter Wohnangebote für Menschen mit Behinderungen wird in Hessen seit Jahren durch eine landesweite Fachkommission auf der Grundlage der Vereinbarung zwischen dem Land Hessen, den kommunalen Spitzenverbänden sowie dem Landeswohlfahrtsverband Hessen nach § 3 b des Hessischen Ausführungsgesetzes zum Zwölften Buch Sozialgesetzbuch (HAG / SGB XII) in Zusammenarbeit mit der Liga der freien Wohlfahrtspflege in Hessen sowie mit privaten Einrichtungsträgern koordiniert und unterstützt.": "Der Auf·bau und Aus·bau von Wohn·angeboten<br>\nfür Menschen mit Behinderungen<br>\nwird in Hessen schon seit vielen Jahren gemacht.<br>\n<br>\nEine Fach·kommission arbeitet daran:<br>\n<br>\nDiese Fach·kommission will Menschen helfen, die eine Be·hinderung haben.<br>\nDafür gibt es eine Vereinbarung.<br>\n<br>\nIn der Vereinbarung sind wichtige Dinge aufgeschrieben<br>\n<br>\nDiese Vereinbarung ist zwischen dem Land Hessen<br>\nund den großen Ge·meinden in Hessen.<br>\nAuch der Landes·wohlfahrts·verband Hessen<br>\nist bei der Vereinbarung dabei.<br>\nDas ist in einem Gesetz geregelt:<br>\n§ 3 b des Hessischen Aus·führungs·gesetzes<br>\nzum 12. Buch Sozial·gesetz·buch.<br>\n<br>\nVerschiedene Gruppen arbeiten zusammen:<br>\n<br>\n· Die Liga der freien Wohl·fahrts·pflege in Hessen<br>\n· Private Einrichtungs·träger<br>\n<br>\nDiese Gruppen helfen<br>\nund arbeiten bei der Koordination<br>\nvon den Wohn·angeboten mit.<br>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 9.79041095890409,
+    "1. Wiener Sachtextformel": 12.481156164383563,
+    "G-SMOG Index": 11.693063937629153,
+    "LIX": 78.96575342465754,
+    "Sentence Count": 4,
+    "Word Count": 146,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 4
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 55.115942028985515,
+    "1. Wiener Sachtextformel": 5.416778513917644,
+    "G-SMOG Index": 2.7089184579347156,
+    "LIX": 45.254428341384866,
+    "Sentence Count": 23,
+    "Word Count": 189,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 4,
+      "sentence_count": 23
+    }
+  }
+}

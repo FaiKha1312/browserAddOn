@@ -1,0 +1,45 @@
+{
+  "website": "https://www.aschaffenburg.de/Aktuelles/Aktuelle-Meldungen-in-Leichter-Sprache/DE_index_6736_98498.html",
+  "model": "easy_language",
+  "translations": {
+    "Die Gehwege in Aschaffenburg sollen auch im Winter für alle sicher sein.": "<span><span><span><span><span><span><span>Die Gehwege in Aschaffenburg sollen auch im Winter für alle sicher sein.</span></span></span></span></span></span></span>",
+    "Streuen Sie Sand oder Splitt auf den Gehweg vor Ihrem Haus.": "<span><span><span><span><span><span><span>Streuen Sie Sand oder Splitt auf den Gehweg vor Ihrem Haus.</span></span></span></span></span></span></span>",
+    "Wann müssen Sie den Gehweig sicherer machen?\nMontag bis Samstag: von 7 Uhr bis 20 Uhr\nAn Sonntagen und Feiertagen: 8 Uhr bis 20 Uhr\nEs gibt besonders viel Schnee und Eis?\nDann müssen Sie vielleicht öfter Schnee räumen und streuen.\n\nStreukisten in der Stadt\nEs gibt 157 Streukisten in der Stadt Aschaffenburg.\nIn den Streukisten ist Sand oder Splitt.\nSie können sich Sand oder Splitt aus den Streukisten nehmen.\nBitte nehmen Sie nur so viel Sand oder Splitt, wie Sie für Ihren Gehweg brauchen.\n\nWann dürfen Sie mit Salz streuen?\nEs gibt Treppen oder starke Steigungen vor Ihrem Haus?\nDann dürfen Sie auch Tausalz streuen.": "<strong><span>Wann müssen Sie den Gehweig sicherer machen?</span></strong><br>\n<span><span><span><span><span><span><span>Montag bis Samstag: von 7 Uhr bis 20 Uhr<br>\nAn Sonntagen und Feiertagen: 8 Uhr bis 20 Uhr</span></span></span></span></span></span></span><br>\n<span><span><span><span>Es gibt besonders viel Schnee und Eis?</span></span></span></span><br>\n<span><span><span><span><span>Dann müssen Sie vielleicht öfter Schnee räumen und streuen.</span></span></span></span></span><br>\n<br>\n<span><strong>Streukisten in der Stadt</strong><br>\nEs gibt 157 Streukisten in der Stadt Aschaffenburg.</span><br>\n<span>In den Streukisten ist Sand oder Splitt.</span><br>\n<span>Sie können sich Sand oder Splitt aus den Streukisten nehmen.</span><br>\n<span>Bitte nehmen Sie nur so viel Sand oder Splitt, wie Sie für Ihren Gehweg brauchen. </span><br>\n<br>\n<strong><span>Wann dürfen Sie mit Salz streuen?</span></strong><br>\n<span><span><span><span><span><span><span>Es gibt Treppen oder starke Steigungen vor Ihrem Haus?</span></span><br>\n<span><span><span>Dann dürfen Sie auch <strong>Tau</strong></span></span></span><strong><span><span></span></span></strong><strong><span><span>salz</span></span></strong><span><span> streuen.</span></span></span></span></span></span></span>",
+    "Die Regeln stehen im Internet unter:\nwww.aschaffenburg.de/stadtrecht8\n(Diese Regeln und die Seite sind nicht in Leichter Sprache).": "<span>Die Regeln stehen im Internet unter:</span><br>\n<a href=\"http://www.aschaffenburg.de/stadtrecht8\"><span>www.aschaffenburg.de/stadtrecht8</span></a><br>\n<span>(Diese Regeln und die Seite sind <strong>nicht </strong>in Leichter Sprache). </span>",
+    "Büro für Leichte Sprache Würzburg, www.leichte-sprache-wuerzburg.de\nmit Mitarbeitenden der Mainfränkischen Werkstätten.": "<span><span><span><span><span><span>Büro für Leichte Sprache Würzburg, </span></span></span><a href=\"http://www.leichte-sprache-wuerzburg.de\"><span><span><span>www.leichte-sprache-wuerzburg.de</span></span></span></a><br>\n<span>mit Mitarbeitenden der Mainfränkischen Werkstätten.</span></span><!--</p--> </span></span>"
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 80.7729754322111,
+    "1. Wiener Sachtextformel": 2.0322578707916286,
+    "G-SMOG Index": 0.9277002188455996,
+    "LIX": 32.23339399454049,
+    "Sentence Count": 14,
+    "Word Count": 157,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 1,
+      "sentence_count": 14
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 80.7729754322111,
+    "1. Wiener Sachtextformel": 2.0322578707916286,
+    "G-SMOG Index": 0.9277002188455996,
+    "LIX": 32.23339399454049,
+    "Sentence Count": 14,
+    "Word Count": 157,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 0,
+      "csubj": 0,
+      "parataxis": 1,
+      "sentence_count": 14
+    }
+  }
+}

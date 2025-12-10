@@ -1,0 +1,59 @@
+{
+  "website": "https://www.ndr.de/fernsehen/barrierefreie_angebote/leichte_sprache/Starker-Sturm-in-Norddeutschland,sturm4276.html",
+  "model": "easy_language",
+  "translations": {
+    "In Teilen von Nord·deutschland ist es sehr stürmisch.": "In Teilen von Nord·deutschland ist es sehr stürmisch.",
+    "Deshalb waren Hunderte Einsätze von der Feuerwehr.": "Deshalb waren Hunderte Einsätze von der Feuerwehr.",
+    "Besonders stark ist der Sturm an der Nord·seeküste.": "Besonders stark ist der Sturm an der Nord·seeküste.",
+    "Bei dem Sturm wurden schon mehrere Menschen verletzt.": "Bei dem Sturm wurden schon mehrere Menschen verletzt.",
+    "In Hamburg wurde das Dach von einem Restaurant zerstört.": "In Hamburg wurde das Dach von einem Restaurant zerstört.",
+    "Oder an großen Flüssen in der Nähe von der Nordsee·küste.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oder an großen Flüssen in der Nähe von der Nordsee·küste.",
+    "Bei der Sturm·flut waren zum Beispiel viele Schiffs·anleger unter Wasser.": "Bei der Sturm·flut waren zum Beispiel viele Schiffs·anleger unter Wasser.",
+    "Die Sturm·flut hat auch Teile vom Hamburger Hafen überflutet.": "Die Sturm·flut hat auch Teile vom Hamburger Hafen überflutet.",
+    "In Niedersachsen wurden 3 Menschen bei dem Sturm verletzt.": "In Niedersachsen wurden 3 Menschen bei dem Sturm verletzt.",
+    "In der Nähe von Elsfleth wurde ein 60 Jahre alter Auto·fahrer verletzt.": "In der Nähe von Elsfleth wurde ein 60 Jahre alter Auto·fahrer verletzt.",
+    "Der Land·kreis Wesermarsch ist nord·östlich von Oldenburg.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Der Land·kreis Wesermarsch ist nord·östlich von Oldenburg.",
+    "Deshalb ist der Mann aus seinem Auto ausgestiegen.": "Deshalb ist der Mann aus seinem Auto ausgestiegen.",
+    "In Auetal wurde eine 26 Jahre alte Auto·fahrerin von einem Baum getroffen.": "In Auetal wurde eine 26 Jahre alte Auto·fahrerin von einem Baum getroffen.",
+    "Der Land·kreis Schaumburg ist westlich von Hannover.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Der Land·kreis Schaumburg ist westlich von Hannover.",
+    "Und in Meppen wurde eine 60 Jahre alte Auto·fahrerin verletzt.": "Und in Meppen wurde eine 60 Jahre alte Auto·fahrerin verletzt.",
+    "Bei dem Sturm sind auch viele Bäume auf Bahn·gleise gefallen.": "Bei dem Sturm sind auch viele Bäume auf Bahn·gleise gefallen.",
+    "Aber bis heute Abend kann es noch stürmisch bleiben.": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aber bis heute Abend kann es noch stürmisch bleiben.",
+    "Die Menschen sollen zum Beispiel nicht in Wälder gehen.": "Die Menschen sollen zum Beispiel <strong>nicht</strong> in Wälder gehen.",
+    "Deshalb können immer noch Bäume oder schwere Äste abbrechen.": "Deshalb können immer noch Bäume oder schwere Äste abbrechen."
+  },
+  "readability_results_original": {
+    "Flesch Reading Ease German": 77.12631578947368,
+    "1. Wiener Sachtextformel": 3.322080701754386,
+    "G-SMOG Index": 1.0779350562554622,
+    "LIX": 38.82456140350877,
+    "Sentence Count": 19,
+    "Word Count": 171,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 19
+    }
+  },
+  "readability_results_translations": {
+    "Flesch Reading Ease German": 77.12631578947368,
+    "1. Wiener Sachtextformel": 3.322080701754386,
+    "G-SMOG Index": 1.0779350562554622,
+    "LIX": 38.82456140350877,
+    "Sentence Count": 19,
+    "Word Count": 171,
+    "Clause Dependents": {
+      "acl": 0,
+      "advcl": 0,
+      "ccomp": 0,
+      "xcomp": 1,
+      "csubj": 0,
+      "parataxis": 0,
+      "sentence_count": 19
+    }
+  }
+}
