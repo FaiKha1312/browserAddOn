@@ -3,3 +3,4 @@ dist/
 .parcel-cache/
 venv/
 __pychache__/
+.DS_Store
