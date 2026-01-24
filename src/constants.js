@@ -1,22 +1,32 @@
+export const OPEN_AI = "openai";
+export const LOCAL_LLM = "local_webllm";
+export const GROQ = 'groq'; 
 
-export const OPEN_AI = 'openAI';
-export const GROQ_CLOUD = 'groqCloud';
 export const CLIENTS = [
-    { name: 'Groq Cloud', value: GROQ_CLOUD },
-    { name: 'OpenAI', value: OPEN_AI }
+    { name: 'OpenAI (Cloud)', value: OPEN_AI },
+    { name: 'Groq Cloud (Llama 3)', value: GROQ },
+    { name: 'Lokal (Llama 3.1)', value: LOCAL_LLM }
 ];
+
 export const CLIENT_MODELS = {
-    'groqCloud': [
-        { name: 'Llama 3.1 70B Versatile', value: 'llama-3.1-70b-versatile', tokenLimitPerMinute: 6000 },
-        { name: 'Llama 3.0 70B 8192', value: 'llama3-70b-8192', tokenLimitPerMinute: 6000 },
-        { name: 'Gemma 2 9B IT', value: 'gemma2-9b-it', tokenLimitPerMinute: 15000 },
-        { name: 'Mixtral 8x7B 32768', value: 'mixtral-8x7b-32768', tokenLimitPerMinute: 5000 },
-    ],
-    'openAI': [
-        { name: 'GPT-4 Turbo', value: 'gpt-4-turbo', tokenLimitPerMinute: 30000 },
-        { name: 'GPT-4o Mini', value: 'gpt-4o-mini', tokenLimitPerMinute: 200000 },
+    [OPEN_AI]: [
+        // Limits für Tier 1 Accounts
         { name: 'GPT-4o', value: 'gpt-4o', tokenLimitPerMinute: 30000 },
-        { name: 'GPT-4', value: 'gpt-4', tokenLimitPerMinute: 10000 },
+        { name: 'GPT-4o Mini', value: 'gpt-4o-mini', tokenLimitPerMinute: 200000 }
+    ],
+    [GROQ]: [
+        // Groq Free Tier Limits (Stand 2024)
+        // 70B ist teuer/limitiert: Nur ca. 6.000 Tokens/Min!
+        { name: 'Llama 3.1 70B (Versatile)', value: 'llama-3.1-70b-versatile', tokenLimitPerMinute: 6000 },
+        // 8B ist billig: Ca. 30.000 Tokens/Min
+        { name: 'Llama 3.1 8B (Instant)', value: 'llama-3.1-8b-instant', tokenLimitPerMinute: 30000 }
+    ],
+    [LOCAL_LLM]: [
+        { 
+            name: 'Llama 3.1 8B (Quantized)', 
+            value: 'Llama-3.1-8B-Instruct-q4f32_1-MLC', 
+            tokenLimitPerMinute: Infinity 
+        }
     ]
 };
 
