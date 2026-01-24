@@ -11,19 +11,31 @@
     "tabs",
     "webNavigation",
     "activeTab",
-    "scripting"
+    "scripting",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.groq.com/*",
+    "https://*.wikipedia.org/*"
   ],
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
   "action": {
-    "default_title": "Testpopup",
+    "default_title": "Leichte Sprache",
     "default_popup": "popup.html"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.groq.com https://api.openai.com"
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src 'self' https://api.openai.com https://api.groq.com https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com https://github.com"
   },
+  "web_accessible_resources": [
+    {
+      "resources": [ "offscreen.html" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ],
   "content_scripts": [
     {
       "matches": [
