@@ -7,14 +7,15 @@ const initSettings = async () => { settings = await loadSettings(); }
 window.addEventListener('DOMContentLoaded', async () => {
   await initSettings();
   console.log(JSON.stringify(settings));
-  if (!settings.deactivateTranslation) translateMainContentAsync(document);
+  // adaptive Funktion aufrufen
+  if (!settings.deactivateTranslation) setTimeout(() => translateMainContentAdaptive(document), 500);
 });
 
 const logDebug = (message, ...params) => settings.debugMode && console.log(message, ...params);
 
 const isContentRelevant = (content, element) => {
   const wordCount = content.split(/\s+/).length;
-  const isInHeaderOrFooter = element.closest('header, footer, [class*="footer"], [id*="footer"], [class*="header"], [id*="header"], [class*="teaser"], [class*="menu"], [class*="nav"], [class*="cookie"]') !== null;
+  const isInHeaderOrFooter = element.closest('header, footer, [class*="footer"], [id*="footer"], [class*="header"], [id*="header"], [class*="teaser"], [class*="menu"], [class*="nav"], [class*="cookie"], [class*="sidebar"]') !== null;
   const isShortText = content.length < 50;
   const isShortWordCount = wordCount < 5;
   const hasTOCClass = element.className.includes('toc') || element.id.includes('toc');
@@ -23,80 +24,121 @@ const isContentRelevant = (content, element) => {
   return !isInHeaderOrFooter && !isShortText && !isShortWordCount && !hasTOCClass && !isReferenceOrCiteNote;
 };
 
-const translateMainContentAsync = async (document) => {
+//Adaptive Strategie (Entscheidet selbstständig zwischen Sequenziell und Parallel)
+const translateMainContentAdaptive = async (document) => {
   const { apiKey, selectedClient, selectedModel } = settings;
-  logDebug('Settings:', apiKey, selectedClient, selectedModel, settings.deactivateTranslation);
-  let translations = loadCachedTranslations();
+  
+  // Prüfen, ob wir lokal arbeiten (WebLLM)
+  const isLocalClient = selectedClient === 'local_webllm';
+  
+  logDebug(`Modus: ${selectedClient}. Strategie: ${isLocalClient ? 'Sequenziell (GPU-Schonung)' : 'Parallel (Cloud-Performance)'}`);
 
-  // Get all paragraphs and list items in the main content
+  let translations = loadCachedTranslations();
+  
+  // Selektoren
   const mainContentElements = 'main, article, section, div';
   const mainContent = document.querySelectorAll(mainContentElements);
-  // Filter result to exclude elements in footer and header
+  
+  // Filtern
   let relevantContent = Array.from(mainContent)
     .flatMap(element => Array.from(element.querySelectorAll('p, li')))
     .filter(p => isContentRelevant(p.innerText.trim(), p))
-    // Filter duplicates
     .filter((value, index, self) => self.indexOf(value) === index);
-  // Create an array of promises for each paragraph/list element to be translated
-  const translationPromises = Array.from(relevantContent).map(async (p) => {
-    let content = p.innerText.trim();
-    const originalHTML = p.innerHTML;
-    let result = '';
-    logDebug('innerText: ', content);
 
-    // Check if translation is already cached
-    if (translations && translations[content]) {
-      result = translations[content];
-      logDebug('cached translation: ', result);
-    } else {
-      try {
-        // Fetch translation from API if not in cache
-        result = await getTranslation(content, selectedModel, selectedClient, apiKey);
-        logDebug('translation: ', result);
-        // Insert <a> tags back into the translated text
-        result = restoreLinksinText(result, originalHTML);
-        // Add translation to JSON object
-        translations[content] = result;
-      }
-      catch (error) {
-        console.error(error);
-        return;
-      }
-    }
-    // Replace the original text with the translated text
-    if (result) {
-      p.innerHTML = result;
-    }
-  });
+  logDebug(`Gefunden: ${relevantContent.length} Elemente zum Übersetzen.`);
 
-  // Wait for all translations to be resolved
-  await Promise.all(translationPromises);
+  let newTranslationsCount = 0;
+
+  if (isLocalClient) {
+    // Lokal: await, in der Schelife warten damit GPU nicht überlastet wird
+    for (const [index, p] of relevantContent.entries()) {
+      const success = await processElement(p, index, relevantContent.length, translations, selectedModel, selectedClient, apiKey);
+      if (success) newTranslationsCount++;
+    }
+  } else {
+    // CLOUD: alles kann parallel bearbeitet werden (Promise.all)
+    const promises = relevantContent.map((p, index) => 
+       processElement(p, index, relevantContent.length, translations, selectedModel, selectedClient, apiKey)
+    );
+    const results = await Promise.all(promises);
+    newTranslationsCount = results.filter(r => r === true).length;
+  }
 
   insertDisclaimerElement(relevantContent, document);
   
-  // Cache translations and download them for evaluation
-  logDebug('translations: ', JSON.stringify(translations));
-  if (Object.keys(translations).length > 1) {
+  if (newTranslationsCount > 0) {
     cacheTranslation(translations);
-    downloadTranslations(translations, selectedModel);
+    if (settings.debugMode) {
+        downloadTranslations(translations, selectedModel);
+    }
+  } else {
+    logDebug("Keine neuen Übersetzungen zum Speichern.");
   }
 };
 
-const restoreLinksinText = (translation, originalHTML) => {
-  // insert <a> tags back into the translated text
-  const tempDiv = document.createElement('div');
-  tempDiv.innerHTML = originalHTML;
-  const links = tempDiv.querySelectorAll('a');
+const processElement = async (p, index, total, translations, selectedModel, selectedClient, apiKey) => {
+    let content = p.innerText.trim();
+    const originalHTML = p.innerHTML;
+    let result = '';
 
-  links.forEach(link => {
-    const linkText = link.innerText;
-    const linkHref = link.href;
-    translation = translation.replace(linkText, `<a href="${linkHref}">${linkText}</a>`);
-  });
+    // Cache Check
+    if (translations && translations[content]) {
+        p.innerHTML = translations[content];
+        logDebug(`Cached: Element ${index + 1}`);
+        return false; // Kein neuer API Call
+    }
+
+    try {
+        // Visuelles Feedback 
+        p.style.transition = "opacity 0.5s";
+        p.style.opacity = "0.5";
+        p.setAttribute("title", "Wird übersetzt...");
+
+        logDebug(`Starte API Call für Element ${index + 1}/${total}`);
+
+        // API Aufruf
+        result = await getTranslation(content, selectedModel, selectedClient, apiKey);
+        
+        // Links wiederherstellen
+        result = restoreLinksinText(result, originalHTML);
+        
+        // In Cache schreiben 
+        translations[content] = result;
+
+        if (result) {
+            p.innerHTML = result;
+            p.style.opacity = "1";
+            p.style.backgroundColor = "#ffffcc"; 
+            setTimeout(() => { p.style.backgroundColor = "transparent"; }, 2000);
+            return true; 
+        }
+    } catch (error) {
+        console.error(`Fehler bei Element ${index + 1}:`, error);
+        p.style.opacity = "1";
+    }
+    return false;
+};
+
+
+const restoreLinksinText = (translation, originalHTML) => {
+  try {
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = originalHTML;
+    const links = tempDiv.querySelectorAll('a');
+
+    links.forEach(link => {
+      const linkText = link.innerText.trim();
+      const linkHref = link.href;
+      if (linkText.length > 0) {
+          translation = translation.replace(linkText, `<a href="${linkHref}">${linkText}</a>`);
+      }
+    });
+  } catch (e) {
+    console.warn("Fehler beim Link-Restore", e);
+  }
   return translation;
 }
 
-// request translation from api for the given content
 const getTranslation = async (content, selectedModel, selectedClient, apiKey) => {
   return new Promise((resolve, reject) => {
     chrome.runtime.sendMessage(
@@ -107,22 +149,23 @@ const getTranslation = async (content, selectedModel, selectedClient, apiKey) =>
         } else if (response && response.success && response.result) {
           resolve(response.result);
         } else {
-          reject(new Error(
-            "Translation failed. Make sure you have entered a valid API key and selected a client and model in the extension settings. You might have reached the API rate limit. Please try again later."
-          ));
+          reject(new Error(response?.error || "Unknown translation error"));
         }
       });
   });
 }
 
 const cacheTranslation = (translations) => {
-  localStorage.setItem("easy_language_translations", JSON.stringify(translations));
+  try {
+      localStorage.setItem("easy_language_translations", JSON.stringify(translations));
+  } catch (e) {
+      console.warn("Quota exceeded for localStorage?", e);
+  }
 }
 
 const loadCachedTranslations = () => {
   let translations = localStorage.getItem('easy_language_translations');
   if (translations) {
-    logDebug('parsing translations: ', translations);
     return JSON.parse(translations);
   }
   return {};
@@ -137,19 +180,14 @@ const loadSettings = () =>
     )
   );
 
-
-
 const downloadTranslations = (translations, modelName) => {
   if (settings.debugMode) {
     const content = { website: window.location.href, model: modelName, translations: translations };
-    // create blob from translations
     const blob = new Blob([JSON.stringify(content, null, 2)], { type: 'application/json' });
-    // create object url from blob
     const url = URL.createObjectURL(blob);
     const element = document.createElement('a');
     element.href = url;
-    // filename including timestamp in date time format and model name
-    element.download = `translations_${modelName}_${new Date(Date.now()).toLocaleString()}.json`;
+    element.download = `translations_${modelName}_${new Date(Date.now()).toLocaleString().replace(/[:.]/g, '-')}.json`; 
     document.body.appendChild(element);
     element.click();
     document.body.removeChild(element);
@@ -159,10 +197,19 @@ const downloadTranslations = (translations, modelName) => {
 const insertDisclaimerElement = (relevantContent, document) => {
   if (relevantContent.length > 0) {
     const lastParagraph = relevantContent[relevantContent.length - 1];
-    const disclaimer = document.createElement('p');
-    disclaimer.innerHTML = DISCLAIMER;
-    disclaimer.className = 'easy-language-disclaimer';
-    disclaimer.style.cssText = window.getComputedStyle(lastParagraph).cssText;
-    lastParagraph.insertAdjacentElement('beforeend', disclaimer);
+    if (lastParagraph && lastParagraph.parentNode) {
+        const disclaimer = document.createElement('p');
+        disclaimer.innerHTML = DISCLAIMER;
+        disclaimer.className = 'easy-language-disclaimer';
+        try {
+            disclaimer.style.cssText = window.getComputedStyle(lastParagraph).cssText;
+        } catch(e) {}
+        
+        disclaimer.style.borderTop = "1px solid #ccc";
+        disclaimer.style.marginTop = "20px";
+        disclaimer.style.fontStyle = "italic";
+        
+        lastParagraph.insertAdjacentElement('beforeend', disclaimer);
+    }
   }
 }
