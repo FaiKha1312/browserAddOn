@@ -1,0 +1,69 @@
+body {
+    font-size: 18px; /* Schriftgröße 18px für normalen Text */
+    line-height: 1.5; /* Zeilenhöhe für bessere Lesbarkeit */
+    font-family: Arial, sans-serif; /* Serifenlose Schriftart */
+    color: #333333; /* Dunkler Text für besseren Kontrast */
+    background-color: #ffffff; /* Heller Hintergrund für hohen Kontrast */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px; /* Größte Überschrift */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px; /* Mittelgroße Überschrift */
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  h3 {
+    font-size: 18px; /* Kleinere Überschrift */
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+   /* Listen und Absätze */
+  
+  /* Für Absätze */
+  p {
+    font-size: 18px; /* Schriftgröße 18px für bessere Lesbarkeit */
+    margin-bottom: 20px; /* Abstand zwischen Absätzen */
+    line-height: 1.5; /* Zeilenhöhe für besseren Lesefluss */
+  }
+  
+  /* Für Listenpunkte */
+  li {
+    font-size: 18px; /* Schriftgröße 18px für Listenpunkte */
+    margin-bottom: 10px;
+    line-height: 1.5; /* Zeilenhöhe für bessere Lesbarkeit */
+  }
+
+     /* Links */
+  
+  a {
+    font-size: 18px; /* Schriftgröße für Links */
+    color: #0066cc; /* Blaue Farbe für Links */
+    text-decoration: underline; /* Unterstreichen von Links */
+  }
+  
+  a:hover {
+    color: #0055bb; /* Farbänderung beim Hover */
+  }
+  
+   /* Optimierungen für die Barrierefreiheit */
+  
+  /* Verhindert, dass Wörter aus dem Bildschirm laufen */
+  p, li, h1, h2, h3 {
+    word-wrap: break-word; /* Bricht lange Wörter */
+  }
+  
+  /* Fügt Medienpunkt (·) für lange zusammengesetzte Wörter hinzu */
+  .long-word {
+    word-break: break-all;
+  }
+  
+  
