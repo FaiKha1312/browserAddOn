@@ -60,10 +60,7 @@ const getTokenLimit = (modelName, clientName) => {
 };
 
 /* ---------------------- Prompt / User Content ---------------------- */
-/**
- * Adaptive Prompting (Routing) gegen Halluzination bei sehr kurzen Texten.
- * - kurze Überschriften/Labels sollen NICHT aufgebläht werden.
- */
+
 const buildUserContent = (rawText) => {
   const text = String(rawText ?? "").trim();
   const wc = text.split(/\s+/).filter(Boolean).length;
@@ -180,7 +177,7 @@ const fetchTranslation = async (text, modelName, clientName, apiKey) => {
 
   throw new Error("Dieser Client wird nicht unterstützt: " + clientName);
 };
-
+// Event-Listener für Nachrichten von content.js
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "fetchTranslation") {
     const { inputText, modelName, clientName, apiKey } = request;
