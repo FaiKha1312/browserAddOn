@@ -1,38 +1,45 @@
 import json
 import math
-import readability  # Offers readability measures and other statistics
-from bs4 import BeautifulSoup  # HTML Parser
+import readability
+from bs4 import BeautifulSoup
 import os
 import pandas as pd
-import stanza  # Tokenizer, POS Tagger and Dependency Parsing for German Texts
+import stanza
 from readability_enums import Indices, Statistics, Text
 
 LANG = "de"
-# regular expression for punctuation marks
 PUNCTRE = readability.PUNCTRE
-# readability indices/measures
+
+
+nlp = stanza.Pipeline(
+    lang=LANG,
+    processors="tokenize,pos,depparse,lemma"
+)
+
 INDICES = [index.value for index in Indices]
 STATISTICS = [stat.value for stat in Statistics]
-# function to count syllables in a word
 syllable_counter = readability.LANGDATA[LANG]["syllables"]
-# nlp model for German language processing (tokenization, POS tagging, etc.)
-# stanza.download(LANG)
-nlp = stanza.Pipeline(language=LANG, processors="tokenize,pos,depparse,lemma")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+TRANSLATIONS_DIR = os.path.join(
+    BASE_DIR,
+    "Evaluation_script",
+    "neuer_promt",
+    "gbt-4o"
+)
+
 
 
 def get_word_count(results):
-    """Based on structure of results from readability.getmeasures()"""
     return results["sentence info"]["words"]
 
 
 def get_sentence_count(results):
-    """Based on structure of results from readability.getmeasures()"""
     return results["sentence info"]["sentences"]
 
 
 def analyse_clause_depentents(doc):
-    """Count the occurence of clause dependents in a text based on the
-    definition of clause dependents in https://universaldependencies.org/u/dep/"""
     clause_dependent_count = {
         "acl": 0,
         "advcl": 0,
@@ -42,7 +49,6 @@ def analyse_clause_depentents(doc):
         "parataxis": 0,
     }
     for sentence in doc.sentences:
-        # match case for acl, advcl, ccomp, xcomp, csubj, parataxis
         for word in sentence.words:
             if word.deprel in clause_dependent_count:
                 clause_dependent_count[word.deprel] += 1
@@ -51,34 +57,23 @@ def analyse_clause_depentents(doc):
 
 
 def count_monosyllabic_words(text):
-    """Count the number of words with only one syllable in a text."""
-    # only consider actual words, not punctuation or numbers
     words = [token for token in text.split() if PUNCTRE.match(token) is None]
     return sum(1 for word in words if syllable_counter(word) == 1)
 
 
 def tokenize_german_text(paragraphs):
-    """Takes a list of sentences and returns a single string of tokens and
-    counts the occurence of clause dependents in the text."""
-    # convert dict list to string
-    doc = nlp(" ".join(paragraphs))  
+    doc = nlp(" ".join(paragraphs))
     stanza_tokenizer_result = "\n".join(
         " ".join(token.text for token in sentence.tokens) for sentence in doc.sentences
-    )  # join all tokens to a single string
+    )
     clause_dependent_count = analyse_clause_depentents(doc)
     return stanza_tokenizer_result, clause_dependent_count
 
 
 def flesch_reading_ease_german(readability_results):
-    """
-    Calculates the Flesch Reading Ease score for German texts based on this formula for German texts:
-    180 - ASL - (58.8 * ASW)
-    where ASL is the average sentence length and ASW is the average number of syllables per word.
-    """
     words = get_word_count(readability_results)
     sentences = get_sentence_count(readability_results)
     syllables = readability_results["sentence info"]["syllables"]
-    # Calculate ASL, ASW and FRE
     ASW = syllables / words
     ASL = words / sentences
     FRE = 180 - ASL - (58.8 * ASW)
@@ -122,58 +117,7 @@ def smog_index_german(readability_results):
     return g_smog
 
 
-def evaluate_readability_for_file(filename):
-    """
-    Reads the original texts and the Easy Language translations from a file,
-    evaluates the readability and writes the results back to the file.
-    The file has a JSON structure as follows:
-        {
-            website: "www.example.com",
-            model: "model_name",
-            translations: {
-            "original text": "easy language translation",
-              ...
-            }
-        }
-    """
-    # open file and read content from JSON
-    with open(filename, "r", encoding="utf-8") as file:
-        content = json.load(file)
-
-    # tokenize original text and translations
-    original_tokens, original_clause_dependents = tokenize_german_text(
-        content[Text.TRANSLATIONS.value].keys()
-    )
-    translations = [
-        BeautifulSoup(translation.replace("<br>", ""), "html.parser").get_text()
-        for translation in content[Text.TRANSLATIONS.value].values()
-    ]
-    translation_tokens, translations_clause_dependents = tokenize_german_text(
-        translations
-    )
-
-    # calculate readability results
-    readability_results_original = get_readability_scores(original_tokens)
-    readability_results_translations = get_readability_scores(translation_tokens)
-
-    # add results to json file
-    content["readability_results_original"] = readability_results_original
-    content["readability_results_original"][
-        Statistics.CLAUSE_DEPENDENTS.value
-    ] = original_clause_dependents
-    content["readability_results_translations"] = readability_results_translations
-    content["readability_results_translations"][
-        Statistics.CLAUSE_DEPENDENTS.value
-    ] = translations_clause_dependents
-    with open(filename, "w", encoding="utf-8") as file:
-        json.dump(content, file, indent=2, ensure_ascii=False)
-
-
 def get_readability_scores(tokens):
-    """
-    Calculates the readability scores for a given text and returns them as a dictionary.
-    Includes: Flesch Reading Ease German, 1. Wiener Sachtextformel, G-SMOG Index, LIX, Sentence Count, Word Count.
-    """
     results = readability.getmeasures(tokens, lang=LANG)
     FREG = flesch_reading_ease_german(results)
     WSF = erste_wiener_sachtextformel(results, tokens)
@@ -189,69 +133,57 @@ def get_readability_scores(tokens):
     return readability_results
 
 
-def evaluate_readability_from_files(filenames=None):
+def evaluate_readability_for_file(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        content = json.load(file)
+
+    # tokenize original text (keys) and translations (values)
+    original_tokens, original_clause_dependents = tokenize_german_text(
+        content[Text.TRANSLATIONS.value].keys()
+    )
+
+    translations = [
+        BeautifulSoup(translation.replace("<br>", ""), "html.parser").get_text()
+        for translation in content[Text.TRANSLATIONS.value].values()
+    ]
+    translation_tokens, translations_clause_dependents = tokenize_german_text(translations)
+
+    readability_results_original = get_readability_scores(original_tokens)
+    readability_results_translations = get_readability_scores(translation_tokens)
+
+    content["readability_results_original"] = readability_results_original
+    content["readability_results_original"][Statistics.CLAUSE_DEPENDENTS.value] = original_clause_dependents
+
+    content["readability_results_translations"] = readability_results_translations
+    content["readability_results_translations"][Statistics.CLAUSE_DEPENDENTS.value] = translations_clause_dependents
+
+    with open(filename, "w", encoding="utf-8") as file:
+        json.dump(content, file, indent=2, ensure_ascii=False)
+
+
+def evaluate_readability_from_files(directory: str | None = None, filenames=None):
     """
-    Reads all files given in the 'filenames' list or all in the predefined directory, 
-    and evaluates the readability of the texts in these files.
+    Wenn filenames=None: nimmt alle .json im directory (oder TRANSLATIONS_DIR).
     """
-    # get files from "translations" folder
-    files = filenames
-    if files is None:
-        translations_directory = "readability evaluation/easy language"
-        files = [f"{translations_directory}/{file}" for file in os.listdir(translations_directory)]
-    print("Evaluating files: ", files)
+    if filenames is None:
+        translations_directory = directory or TRANSLATIONS_DIR
+
+        if not os.path.isdir(translations_directory):
+            raise FileNotFoundError(f"Ordner nicht gefunden: {translations_directory}")
+
+        files = [
+            os.path.join(translations_directory, fn)
+            for fn in os.listdir(translations_directory)
+            if fn.lower().endswith(".json")
+        ]
+    else:
+        files = filenames
+
+    print(f"Evaluating {len(files)} files in: {directory or TRANSLATIONS_DIR}")
     for file in files:
         evaluate_readability_for_file(file)
+
     print("Evaluation finished.")
-
-
-def calculate_statistics():
-    """
-    Calculates the average readability scores for each LLM model based on the evaluation saved in 'translations' files.
-    """
-    # get files from given directory
-    translations_directory = "readability evaluation/easy language"
-    files = [f"{translations_directory}/{file}" for file in os.listdir(translations_directory)]
-    model_scores = {}  # dictionary to store readability scores for each model
-    for file in files:
-        # check if file exists
-        if not os.path.exists(file):
-            continue
-        model = file.split("_")[1]
-        if model not in model_scores:
-            model_scores[model] = {Text.TRANSLATIONS.value: {}, Text.ORIGINAL.value: {}}
-            model_scores[model]["website"] = []
-        with open(file, "r", encoding="utf-8") as f:
-            content = json.load(f)
-            model_scores[model]["website"].append(content["website"])
-
-        # add readability scores/indices to model_scores dictionary
-        add_readability_scores(model_scores[model], content, Text.TRANSLATIONS.value)
-        add_readability_scores(model_scores[model], content, Text.ORIGINAL.value)
-
-    # calculate average readability scores for each model
-    for model in model_scores:
-        for key in [Text.TRANSLATIONS.value, Text.ORIGINAL.value]:
-            for index in INDICES:
-                scores = model_scores[model][key][index]
-                model_scores[model][f"{index}_{key}_avg"] = (
-                    sum(scores) / len(scores) if scores else 0
-                )
-            sentence_counts = model_scores[model][key][Statistics.SENTENCE_COUNT.value]
-            model_scores[model][f"{Statistics.SENTENCE_COUNT.value}_{key}_avg"] = (
-                sum(sentence_counts) / len(sentence_counts) if sentence_counts else 0
-            )
-            word_counts = model_scores[model][key][Statistics.WORD_COUNT.value]
-            model_scores[model][f"{Statistics.WORD_COUNT.value}_{key}_avg"] = (
-                sum(word_counts) / len(word_counts) if word_counts else 0
-            )
-            
-
-    # save statistics to csv file
-    df = pd.DataFrame.from_dict(model_scores, orient="index")
-    df.reset_index(inplace=True)
-    df.rename(columns={"index": "LLM Model"}, inplace=True)
-    df.to_csv("readability_scores_easy_language.csv", index=False)
 
 
 def add_readability_scores(model_scores, content, key):
@@ -259,11 +191,13 @@ def add_readability_scores(model_scores, content, key):
         if index not in model_scores[key]:
             model_scores[key][index] = []
         model_scores[key][index].append(content[f"readability_results_{key}"][index])
+
     if Statistics.SENTENCE_COUNT.value not in model_scores[key]:
         model_scores[key][Statistics.SENTENCE_COUNT.value] = []
     model_scores[key][Statistics.SENTENCE_COUNT.value].append(
         content[f"readability_results_{key}"][Statistics.SENTENCE_COUNT.value]
     )
+
     if Statistics.WORD_COUNT.value not in model_scores[key]:
         model_scores[key][Statistics.WORD_COUNT.value] = []
     model_scores[key][Statistics.WORD_COUNT.value].append(
@@ -271,10 +205,66 @@ def add_readability_scores(model_scores, content, key):
     )
 
 
-# if main file, run the evaluation
+def calculate_statistics(directory: str | None = None, out_csv: str = "readability_scores_easy_language.csv"):
+    translations_directory = directory or TRANSLATIONS_DIR
+
+    if not os.path.isdir(translations_directory):
+        raise FileNotFoundError(f"Ordner nicht gefunden: {translations_directory}")
+
+    files = [
+        os.path.join(translations_directory, fn)
+        for fn in os.listdir(translations_directory)
+        if fn.lower().endswith(".json")
+    ]
+
+    model_scores = {}
+
+    for file in files:
+        if not os.path.exists(file):
+            continue
+
+        with open(file, "r", encoding="utf-8") as f:
+            content = json.load(f)
+
+        model = content.get("model", "unknown")
+
+        if model not in model_scores:
+            model_scores[model] = {Text.TRANSLATIONS.value: {}, Text.ORIGINAL.value: {}}
+            model_scores[model]["website"] = []
+
+        model_scores[model]["website"].append(content.get("website", ""))
+
+        add_readability_scores(model_scores[model], content, Text.TRANSLATIONS.value)
+        add_readability_scores(model_scores[model], content, Text.ORIGINAL.value)
+
+    for model in model_scores:
+        for key in [Text.TRANSLATIONS.value, Text.ORIGINAL.value]:
+            for index in INDICES:
+                scores = model_scores[model][key][index]
+                model_scores[model][f"{index}_{key}_avg"] = sum(scores) / len(scores) if scores else 0
+
+            sentence_counts = model_scores[model][key][Statistics.SENTENCE_COUNT.value]
+            model_scores[model][f"{Statistics.SENTENCE_COUNT.value}_{key}_avg"] = (
+                sum(sentence_counts) / len(sentence_counts) if sentence_counts else 0
+            )
+
+            word_counts = model_scores[model][key][Statistics.WORD_COUNT.value]
+            model_scores[model][f"{Statistics.WORD_COUNT.value}_{key}_avg"] = (
+                sum(word_counts) / len(word_counts) if word_counts else 0
+            )
+
+    df = pd.DataFrame.from_dict(model_scores, orient="index")
+    df.reset_index(inplace=True)
+    df.rename(columns={"index": "LLM Model"}, inplace=True)
+    df.to_csv(out_csv, index=False)
+    print(f"Saved statistics CSV: {out_csv}")
+
+
 if __name__ == "__main__":
-    # and calculate readability scores and sentqence structure
-    evaluate_readability_for_file("readability evaluation/discussion/translations_gpt-4o_full_context_changed_prompt.json")
-    # calculate statistics (average values/scores of each llm model over all texts)
-    # based on evaluation saved in 'translations_' files and save to csv
-    #calculate_statistics()
+    evaluate_readability_from_files()
+
+    # Ordnername als CSV-Suffix nutzen (z.B. "gbt-5.2" oder "Llama-3.3")
+    folder_name = os.path.basename(os.path.normpath(TRANSLATIONS_DIR))
+    out_csv = f"readability_scores_{folder_name}.csv"
+
+    calculate_statistics(out_csv=out_csv)
