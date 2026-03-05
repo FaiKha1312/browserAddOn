@@ -30,14 +30,17 @@ const EASY_LANGUAGE_MARKER_SELECTOR =
 const EASY_PAGE_REGEX = /\b(leichte\s+sprache|easy\s+language)\b/i;
 
 const isEasyLanguagePage = (doc) => {
-  if (doc.querySelector(EASY_LANGUAGE_MARKER_SELECTOR)) return true;
+  const main = doc.querySelector("main, article, [role='main']");
+  const scope = main || doc; // fallback, falls main fehlt
 
-  // Title oder Headings
+  // Marker nur im Hauptinhalt (sonst triggern Footer/Nav-Links fälschlich)
+  if (scope.querySelector(EASY_LANGUAGE_MARKER_SELECTOR)) return true;
+
+  // Title oder Headings (Heading nur aus dem Hauptinhalt)
   const title = String(doc.title || "");
-  const h = doc.querySelector(
-    "main h1, main h2, article h1, article h2, [role='main'] h1, [role='main'] h2"
-  );
-  const heading = String(h?.innerText || "");
+  const h = scope.querySelector("h1, h2");
+  const heading = String(h?.innerText || "").trim();
+
   return EASY_PAGE_REGEX.test(title) || EASY_PAGE_REGEX.test(heading);
 };
 

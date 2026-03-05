@@ -1,5 +1,7 @@
 import { CreateMLCEngine } from "@mlc-ai/web-llm";
-import { PROMPT_TEMPLATE_LOCAL } from "./constants.js";
+import { ACTIVE_PROMPT_MODE, PROMPT_TEMPLATE_LOCAL } from "./constants.js";
+
+console.log(`[Prompt] Local prompt mode: ${ACTIVE_PROMPT_MODE}`);
 
 // Standard-Fallback, falls nichts übergeben wird
 let currentModelId = "Llama-3.1-8B-Instruct-q4f32_1-MLC";
